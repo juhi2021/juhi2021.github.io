@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/juhi2021/juhi2021.github.i
 
 [Titanic](https://github.com/juhi2021/juhi2021.github.io/docs/Titanic.ipynb)
 
-[another try](docs/Titanic.ipynb)
+[another try](../Titanic.ipynb)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
