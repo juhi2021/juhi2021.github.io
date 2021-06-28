@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/juhi2021/juhi2021.github.i
 
 [try](../Titanic.ipynb)
 
-<iframe src='../Titanic.ipynb'></iframe>
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
