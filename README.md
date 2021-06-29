@@ -2,5 +2,5 @@
 
 | Sr No | Name                                                         | Link                                |
 | ----- | ------------------------------------------------------------ | ----------------------------------- |
-| 1     | Titanic                             | https://git.io/JcOvI              |
-| 2     | Feature Selection                         | https://git.io/JcOeF              |
+| 1     | Titanic                             | <https://git.io/JcOvI>              |
+| 2     | Feature Selection                         | <https://git.io/JcOeF>              |
