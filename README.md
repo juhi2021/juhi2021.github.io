@@ -2,5 +2,5 @@
 
 | Sr No | Name                                                         | Link                                |
 | ----- | ------------------------------------------------------------ | ----------------------------------- |
-| 1     | Titanic                             | <https://git.io/JcOvI>              |
-| 2     | Feature Selection                         | <https://git.io/JcOeF>              |
+| 1     | Titanic   | [https://git.io/JcOUw](https://github.com/juhi2021/juhi2021.github.io/blob/main/docs/Titanic.ipynb) |
+| 2     | Feature Selection      | [https://git.io/JcOUB](https://github.com/juhi2021/juhi2021.github.io/blob/main/docs/Feature_Selection.md)      |
