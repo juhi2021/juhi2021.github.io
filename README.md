@@ -2,7 +2,7 @@
 
 [Titanic](https://github.com/juhi2021/juhi2021.github.io/blob/projs/docs/Titanic.ipynb)
 
-[](https://git.io/JcOeF)
+![](https://git.io/JcOeF)
 
 [Feature Selection](https://git.io/JcOex)
 
