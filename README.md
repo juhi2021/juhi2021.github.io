@@ -2,9 +2,9 @@
 
 [Titanic](https://github.com/juhi2021/juhi2021.github.io/blob/projs/docs/Titanic.ipynb)
 
-[Feature Selection](https://github.com/juhi2021/juhi2021.github.io/blob/projs/docs/Feature_Selection.md)
+[Feature Selection](https://git.io/JcOeF)
 
-[Feature Selection](https://github.com/juhi2021/juhi2021.github.io/blob/projs/docs/Feature_Selection.html)
+[](https://git.io/JcOex)
 
 | Sr No | Name                                                         | Link                                |
 | ----- | ------------------------------------------------------------ | ----------------------------------- |
