@@ -1,3 +1,2 @@
 theme: jekyll-theme-minimal
-<script type="application/ld+json">
-{"description":"Projects done while learning","url":"https://juhi2021.github.io/","@type":"WebSite","headline":"𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗟𝗶𝘀𝘁 𝘄𝗶𝘁𝗵 𝗰𝗼𝗱𝗲","name":"Juhi Jain","@context":"https://schema.org"}</script>
+markdown: kramdown
