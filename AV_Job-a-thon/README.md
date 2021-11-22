@@ -18,22 +18,25 @@ Did some analysis of data, then introduced the 'Target' variable which defines t
 Pre-processed data to include 'days_worked', label encoding, change in ratings.
 
 # Model Building
+
 It was challenge to formulate data for the Long Short Term Memory(LSTM). Used LSTM to learn the patterns in the employee attrition.
 Steps involved:
-  Splitting the dataset employee wise
-  Padding the sequences to make all the sub datasets of same size (balancing of data, because of time constraint used 0 as padding value)
-  Normalizing the data
-  Splitting the data into samples (prepare data for LSTM returning X_samples as 3-D and y_samples as 2-D)
-  Splitting the train-test data
-  Create the LSTM Model and train it with train set
-  Measure the accuracy on the test data
-  The model worked fine with around 95% accuracy.
-  Next step was to prepare the sample set for future (2 quarters dates) and predicting the outcome for all individual days.
-  Since small dataset used 2 days data to predict for the next days values.
-  Train the model with this sample data for next 60 days prediction.
-  Use the LSTM to predict for the next 60 days.
-  Draw conclusions by aggregating the result of prediction to see if the employee leaves the job
+  * Splitting the dataset employee wise
+  * Padding the sequences to make all the sub datasets of same size (balancing of data, because of time constraint used 0 as padding value)
+  * Normalizing the data
+  * Splitting the data into samples (prepare data for LSTM returning X_samples as 3-D and y_samples as 2-D)
+  * Splitting the train-test data
+  * Create the LSTM Model and train it with train set
+  * Measure the accuracy on the test data
+  * The model worked fine with around 95% accuracy.
+  * Next step was to prepare the sample set for future (2 quarters dates) and predicting the outcome for all individual days.
+  * Since small dataset used 2 days data to predict for the next days values.
+  * Train the model with this sample data for next 60 days prediction.
+  * Use the LSTM to predict for the next 60 days.
+  * Draw conclusions by aggregating the result of prediction to see if the employee leaves the job
   
 # Model Evaluation
+
 The evaluation metric used was F1 score (classification report was printed).
+
 
