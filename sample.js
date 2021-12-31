@@ -51,6 +51,6 @@ For details, see http://www.bloggerspice.com/
     
     var script = document.createElement('script');
     script.src = "https://www.twilik.com/assets/retainable/rss-embed/retainable.js";
-    document.getElementsByTagName('div')[0].appendChild(script);
+    document.getElementsByTagName('body')[0].appendChild(script);
     
 }(this.document));
