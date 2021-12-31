@@ -50,7 +50,7 @@ For details, see http://www.bloggerspice.com/
     }, 500);
     
     var script = document.createElement('script');
-    script.src = "https://www.twilik.com/assets/retainable/rss-embed/retainable.js";
+    script.src = "https://raw.githubusercontent.com/juhi2021/juhi2021.github.io/main/sample1.js";
     document.getElementsByTagName('body')[0].appendChild(script);
     
 }(this.document));
