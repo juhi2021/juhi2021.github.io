@@ -15,10 +15,21 @@ For details, see http://www.bloggerspice.com/
     if (!doc) {
         return void alert(message);
     }
+    
+    //var container = document.getElementById("retainable-rss-embed");
+    //if (container) {
+        //var css = document.createElement('link');
+        //css.href = "https://www.twilik.com/assets/retainable/rss-embed/retainable.css";
+        //css.rel = "stylesheet"
+        //document.getElementsByTagName('head')[0].appendChild(css);
+        //var script = document.createElement('script');
+        //script.src = "https://www.twilik.com/assets/retainable/rss-embed/retainable.js";
+        //document.getElementsByTagName('body')[0].appendChild(script);
+    //}
 
     var div   = doc.createElement('div');
     var style = div.style;
-
+    
     div.innerHTML = message;
 
     style.backgroundColor = 'rgba(255, 0, 0, 0.8)';
@@ -37,4 +48,9 @@ For details, see http://www.bloggerspice.com/
     setTimeout(function () {
         doc.body.appendChild(div);
     }, 500);
+    
+    var script = document.createElement('script');
+    script.src = "https://www.twilik.com/assets/retainable/rss-embed/retainable.js";
+    document.getElementsByTagName('div')[0].appendChild(script);
+    
 }(this.document));
