@@ -6,7 +6,7 @@ For details, see http://www.bloggerspice.com/
 */
 
 (function (doc) {
-    var message = 'This site or app is sending too much traffic to rawgit.com. Please contact its owner and ask them to use cdn.rawgit.com instead, which has no traffic limit.';
+    var message = 'Make the message small';
 
     if (typeof console !== 'undefined') {
         console.error(message);
