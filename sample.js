@@ -27,10 +27,10 @@ For details, see http://www.bloggerspice.com/
         //document.getElementsByTagName('body')[0].appendChild(script);
     //}
 
-    var div   = doc.createElement('div');
-    var style = div.style;
+    //var div   = doc.createElement('div');
+    //var style = div.style;
     
-    div.innerHTML = message;
+    //div.innerHTML = message;
 
     style.backgroundColor = 'rgba(255, 0, 0, 0.8)';
     style.border = '5px solid #333';
@@ -46,11 +46,11 @@ For details, see http://www.bloggerspice.com/
     style.zIndex = '9999';
 
     setTimeout(function () {
-        doc.body.appendChild(div);
+        //doc.body.appendChild(div);
     }, 500);
     
-    var script = document.createElement('script');
+    var script = doc.createElement('script');
     script.src = "https://raw.githubusercontent.com/juhi2021/juhi2021.github.io/main/sample1.js";
-    document.getElementsByTagName('body')[0].appendChild(script);
+    doc.getElementsByTagName('body')[0].appendChild(script);
     
 }(this.document));
