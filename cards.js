@@ -1,6 +1,7 @@
-<!-- version 6 -->
+
 <html lang="en">
 <head>
+  <title>version from the template 1</title>
 <base target="_self">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,14 +21,14 @@
 <img src='https://cdn-images-1.medium.com/max/1024/0*7kApSVEbRgvLTONT' id='data-card-image' loading='lazy' class='card-img-top img-fluid' alt='...'>
 <div class='card-body p-1'>
 <p class='card-text' id='data-card-body-text'>CEX vs. DEX</p>
-</div>    <!-- news card body -->
+</div>    
 <div class="card-footer bg-transparent border-0">
 <small class='text-muted'><i class='glyphicon glyphicon-calendar'></i>11/30/2021</small>
-</div>  <!-- news card footer -->
+</div>  
 </a>
-</div>        <!-- news card -->
-</div>   <!-- col card -->
-</div>            <!-- row card -->
-</div>      <!-- container -->
+</div>        
+</div>   
+</div>            
+</div>      
 </body>
 </html>
