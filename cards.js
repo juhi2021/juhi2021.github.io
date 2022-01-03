@@ -1,4 +1,4 @@
-<!-- version 1 -->
+<!-- version 2 -->
 <html lang="en">
 <head>
 <base target="_self">
