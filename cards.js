@@ -1,4 +1,4 @@
-<!-- version 4 -->
+<!-- version 5 -->
 <html lang="en">
 <head>
 <base target="_self">
@@ -16,13 +16,13 @@
 <div class="row">
 <div class="col-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 mb-4">
 <div class='card text-white bg-white border-secondary rounded h-100 zoom'>
-<a href='https://vinothu.medium.com/mobile-device-cybersecurity-checklist-for-consumers-6c19ac51df85?source=rss-25a06010c94f------2' target='_blank' class='card-link text-secondary' id='data-card-news'>
-<img src='https://cdn-images-1.medium.com/max/1024/0*UzkS7Eg-0dLqnHjX' id='data-card-image' loading='lazy' class='card-img-top img-fluid' alt='...'>
+<a href='https://vinothu.medium.com/oracles-in-the-crypto-world-7f250c1cc467?source=rss-25a06010c94f------2' target='_blank' class='card-link text-secondary' id='data-card-news'>
+<img src='https://cdn-images-1.medium.com/max/1024/0*jJoaJ1VFA3U1_bYZ' id='data-card-image' loading='lazy' class='card-img-top img-fluid' alt='...'>
 <div class='card-body p-1'>
-<p class='card-text' id='data-card-body-text'>Mobile Device Cybersecurity Checklist for Consumers</p>
+<p class='card-text' id='data-card-body-text'>Oracles in the Crypto World</p>
 </div>    <!-- news card body -->
 <div class="card-footer bg-transparent border-0">
-<small class='text-muted'><i class='glyphicon glyphicon-calendar'></i>12/03/2021</small>
+<small class='text-muted'><i class='glyphicon glyphicon-calendar'></i>12/01/2021</small>
 </div>  <!-- news card footer -->
 </a>
 </div>        <!-- news card -->
