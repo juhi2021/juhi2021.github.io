@@ -9,7 +9,7 @@
     //    $('#myframe').attr('src', 'https://juhi2021.github.io/cards_medium.html');
     //});
     
-    jQuery.get('https://juhi2021.github.io/cards_medium.html', function(data) {
+    $.get('https://juhi2021.github.io/cards_medium.html', function(data) {
         doc.write(data);
         //document.getElementById('msgDiv').innerHTML = data;
     });
