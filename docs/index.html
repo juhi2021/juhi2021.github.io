@@ -1,39 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--INCLUDE REQUIRED EXTERNAL JAVASCRIPT AND CSS LIBRARIES-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
-    
-    
-  </head>
- 
- 
-  <body class="bg-white">
-    
-    <section style="background:#efefe9;">
   
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-        </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div class="container-fluid bg-white">
-          <div class="row">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
+  
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  
+  
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand sticky-top navbar-dark bg-secondary">
+  <div class="container-fluid ">
+  <p align="left"><a class="navbar-brand" href="#">Juhi Jain</a></p>
+    
+    <div class="navbar-header navbar-right" id="myNavbar">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">About</a></li>
+      <li><a data-toggle="tab" href="#projects">Projects</a></li>
+      <li><a data-toggle="tab" href="#blog">Blog</a></li>
+      
+    </ul>
+
+    </div>
+ </div>
+</nav>
+
+<div class="tab-content">
+<div id="home" class="tab-pane fade in active">
+    <div class="container-fluid bg-white">
+    	<div class="row">
                           <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-4">
             <div class='card text-white bg-white border-secondary rounded h-100 zoom'>
               <a href='https://vinothu.medium.com/bug-alert-critical-vulnerability-alerting-system-7ce9d94c578?source=rss-25a06010c94f------2' target='_blank' class='card-link text-secondary' id='data-card-news'>
@@ -52,8 +61,7 @@
                   <p class='card-text' id='data-card-text'> Log4j — Searchable Software Repository </p>
                 </div>    
               </a>
-            </div>   
-            </div>
+            </div>          
           </div>     
                   <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-4">
             <div class='card text-white bg-white border-secondary rounded h-100 zoom'>
@@ -74,20 +82,44 @@
                 </div>    
               </a>
             </div>          
-          </div>   
-          </div>
-        </div>  <!-- home tab -->
+          </div>     
+                  
+              </div>            
+    </div> 	        
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div id="projects" class="tab-pane fade in active">
   
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.
-        </div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-          Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur mollit voluptate voluptate consequat non.
-        </div>
-      </div>
-    
-</section>
-    
-    
-  </body>
+  <br>
+  <h3 class="text-center">Projects</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#ML">Machine Learning</a></li>
+    <li><a data-toggle="tab" href="#DL">Deep Learning</a></li>
+    <li><a data-toggle="tab" href="#NLP">Natural Language Processing</a></li>
+    <li><a data-toggle="tab" href="#CV">Computer Vision</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="ML" class="tab-pane fade in active">
+      <h2>Mike Ross, Manager</h2>
+      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+    </div>
+    <div id="DL" class="tab-pane fade">
+      <h2>Chandler Bing, Guitarist</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="NLP" class="tab-pane fade">
+      <h2>Peter Griffin, Bass player</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+    <div id="CV" class="tab-pane fade">
+      <h2>d,nfdsk d;sfosd;f </h2>
+      <p>computer dvceflkj ewtwer.</p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
 </html>
