@@ -21,26 +21,68 @@
   
 
 </head>
-<body>
+<body style="padding-top: 80px; padding-left : 10px; padding-right : 10px;">
+<!--<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+<nav class="navbar navbar-dark bg-secondary navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://juhi2021.github.io/docs/index.html">
 
-<nav class="navbar navbar-expand sticky-top navbar-dark bg-secondary">
+                <span>Juhi Jain</span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                                <li class="active">
+<a href="#articles">Articles</a>
+                </li>
+<li>
+<a href="#projects">Projects</a>
+                </li>
+<li>
+<a href="#about">About</a>
+                </li>
+</ul>
+                
+            <ul class="nav navbar-nav navbar-right">
+                
+            </ul>
+        </div>
+    </div>
+</nav>-->
+<nav class="navbar navbar-fixed-top alert-success" role="navigation">
   <div class="container-fluid ">
-  <p align="left"><a class="navbar-brand" href="#">Juhi Jain</a></p>
+  <span align="left" class="navbar-brand">Juhi Jain</span>
     
-    <div class="navbar-header navbar-right" id="myNavbar">
+    <div class="navbar-header navbar-right">
     <ul class="nav nav-tabs">
-      <li class="active"><a data-toggle="tab" href="#home">About</a></li>
+      <li class="active"><a data-toggle="tab" href="#articles">Articles</a></li>
       <li><a data-toggle="tab" href="#projects">Projects</a></li>
-      <li><a data-toggle="tab" href="#blog">Blog</a></li>
-      
+      <li><a data-toggle="tab" href="#about">About</a></li>
     </ul>
 
     </div>
  </div>
 </nav>
 
-<div class="tab-content">
-<div id="home" class="tab-pane fade in active">
+<div class="tab-content" role="main">
+<div id="about" class="tab-pane fade">
+<div class='card text-secondary bg-white border-secondary rounded h-100'>
+<div class='card-body p-3'>
+                  <p class='card-text'> Namastey!! Welcome! My name is Juhi Jain. I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. My understanding of the AI concepts and implementing the fundamentals to resolve the real-world technical challenges to include the full spectrum of the learning process. Happy Learning! </p>
+                </div>    
+               </div>
+</div>
+
+
+
+<div id="articles" class="tab-pane fade in active">
     <div class="container-fluid bg-white">
     	<div class="row">
                           <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-4">
@@ -90,10 +132,7 @@
 
 
 <!-- Container (Contact Section) -->
-<div id="projects" class="tab-pane fade in active">
-  
-  <br>
-  <h3 class="text-center">Projects</h3>  
+<div id="projects" class="tab-pane fade">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#ML">Machine Learning</a></li>
     <li><a data-toggle="tab" href="#DL">Deep Learning</a></li>
@@ -103,20 +142,20 @@
 
   <div class="tab-content">
     <div id="ML" class="tab-pane fade in active">
-      <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+      <h2>Loan Prediction</h2>
+      <p>Statistical analysis, logistic model</p>
     </div>
     <div id="DL" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+      <h2>Deep Learning Model 1</h2>
+      <p>DL model</p>
     </div>
     <div id="NLP" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+      <h2>NLP model</h2>
+      <p>NLP model</p>
     </div>
     <div id="CV" class="tab-pane fade">
-      <h2>d,nfdsk d;sfosd;f </h2>
-      <p>computer dvceflkj ewtwer.</p>
+      <h2>CV</h2>
+      <p>CV model</p>
     </div>
   </div>
 </div>
