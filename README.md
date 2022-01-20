@@ -1,2 +1,2 @@
-# juhi2021.github.io
-Projects done while learning
+# Juhi Jain
+Artificial Intelligence
