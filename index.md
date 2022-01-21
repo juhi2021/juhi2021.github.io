@@ -7,16 +7,7 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-
-        body {
-      color: #666666; font-family: 'Open Sans';
-      font-size: calc(20px - 1vw);
-      line-height: calc(1.1em + 0.5vw);
-    }
-
-    
-</style>
+  
 </head>
 
 <body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="0">
@@ -37,7 +28,7 @@
 <div id="projects">
     <div class="container-fluid bg-white">
     <div class="row">
-    <h1 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h1>
+    <h2 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h2>
 </div>
     	<div class="row">
                           
@@ -134,7 +125,7 @@
 
 <!-- Container (Contact Section) -->
 <div id="articles">
-    <h3 class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></h3>
+    <h2 class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></h2>
   <div id="myCarousel" class="carousel slide my-0 py-0 px-5" data-bs-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
@@ -198,7 +189,7 @@
 <div id="topics">
   <div class="container-fluid">
     <div class="row">
-    <h6 class="text-success text-center">Articles and Projects Topics</h6>
+    <h2 class="text-success text-center">Articles and Projects Topics</h2>
     </div>
     <br>
     <div class="row">
@@ -237,8 +228,8 @@
 <footer class="text-center">
   <br><br><br>
   <p style="float:center;">
-                  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <i class="fa fa-sort-up pe-5"></i>
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <h1><i class="fa fa-sort-up pe-5"></i></h1>
   </a></p>
   <span class="ps-2" style="float:center;">
   <i class="fa fa-linkedin">&nbsp;<a href="www.linkedin.com/in/jobsforjuhi" target="_blank">jobsforjuhi</a></i>&ensp;||&ensp;
