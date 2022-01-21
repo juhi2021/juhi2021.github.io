@@ -11,28 +11,7 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.color1 {
-			linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-			background-size: 128px 128px, auto;
-			background-color: #726193;
-		}
-        body {
-      color: #666666; font-family: 'Open Sans';
-      font-size: calc(20px - 1vw);
-      line-height: calc(1.1em + 0.5vw);
-    }
 
-    .zoom:hover {
-      border: 5px solid #3E7DC0 !important;
-      
-    }
-    .card-img-top {
-      
-      width: 100vw; 
-      height: calc(120px + 1.5vw);
-      }
-</style>
 </head>
 <body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="50">
 
@@ -281,40 +260,8 @@
                   <i class="fa fa-envelope-o">&nbsp;<a href="mailto:jobsforjuhi@hotmail.com">jobsforjuhi@hotmail.com</a></i>&ensp;||&ensp;
                   <i class="fa fa-github">&nbsp;<a href="https://juhi2021.github.io/docs/index.html#about" target="_blank">juhi2021</a></i>
                   </span>
-                  <span class="me-2" style="float:right;">
-                  <a class="me-2 up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <h1><i class="fa fa-sort-up pe-5"></i></h1>
-  </a></span>
+                  
 </footer>
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 100, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
 </body>
 </html>
