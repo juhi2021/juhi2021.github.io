@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
 
-        .mystyle {
+        body {
       color: #666666; font-family: 'Open Sans';
       font-size: calc(20px - 1vw);
       line-height: calc(1.1em + 0.5vw);
