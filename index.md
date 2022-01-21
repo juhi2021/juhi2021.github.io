@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
 
-        card {
+        mystyle {
       color: #666666; font-family: 'Open Sans';
       font-size: calc(20px - 1vw);
       line-height: calc(1.1em + 0.5vw);
@@ -37,24 +37,24 @@
 <div id="projects">
     <div class="container-fluid bg-white">
     <div class="row">
-    <h3 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h3>
+    <h1 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h1>
 </div>
     	<div class="row">
                           <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-1">
             <div class='card bg-white border-secondary rounded h-100'>
-              	<div class="card-header px-1">
+              	<div class="card-header mystyle px-1">
                   <span class="text-muted">Exploratory Data Analysis</span>
                 </div>
-                <div class='card-body p-1'>
-                <p class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></p>
+                <div class='card-body mystyle p-1'>
+                <p class="card-title mystyle"><strong>Comcast Telecom Consumer Complaints</strong></p>
                 
-                  <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+                  <small class='card-text mystyle' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
                 </div> 
-                <div class="card-footer px-1 text-muted">
+                <div class="card-footer mystyle px-1 text-muted">
                   <small>
                   	<i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
-                  	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.pdf" target="_blank">
+                  	<span style="float:right;"><a class="card-link mystyle" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.pdf" target="_blank">
                     	Read more...
                     </a></span>
                   </small>
@@ -196,7 +196,7 @@
 <div id="topics">
   <div class="container-fluid">
     <div class="row">
-    <h6 class="text-success text-center">Articles and Projects Topics</i></h6>
+    <h6 class="text-success text-center">Articles and Projects Topics</h6>
     </div>
     <br>
     <div class="row">
@@ -233,16 +233,18 @@
 
 <!-- Footer -->
 <footer class="text-center">
-<br><br><br>
+  <br><br><br>
+  <span class="me-2" style="float:right;">
+                  <a class="me-2 up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <h1><i class="fa fa-sort-up pe-5"></i></h1>
+  </a></span>
+
   <span class="ps-2" style="float:left;">
   <i class="fa fa-linkedin">&nbsp;<a href="www.linkedin.com/in/jobsforjuhi" target="_blank">jobsforjuhi</a></i>&ensp;||&ensp;
                   <i class="fa fa-envelope-o">&nbsp;<a href="mailto:jobsforjuhi@hotmail.com">jobsforjuhi@hotmail.com</a></i>&ensp;||&ensp;
                   <i class="fa fa-github">&nbsp;<a href="https://juhi2021.github.io/docs/index.html#about" target="_blank">juhi2021</a></i>
                   </span>
-                  <span class="me-2" style="float:right;">
-                  <a class="me-2 up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <h1><i class="fa fa-sort-up pe-5"></i></h1>
-  </a></span>
+                  
 </footer>
 <script>
 $(document).ready(function(){
