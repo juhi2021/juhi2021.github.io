@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
 
-        mystyle {
+        .mystyle {
       color: #666666; font-family: 'Open Sans';
       font-size: calc(20px - 1vw);
       line-height: calc(1.1em + 0.5vw);
@@ -23,7 +23,7 @@
 
 <div id="about">
 
-<div class='card mystyle text-secondary bg-white border-0 rounded h-100 m-2'>
+<div class='card mystyle text-secondary bg-white border-0 rounded m-2'>
 <div class='card-body p-3'>
                   <p class='card-text'> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
                   
@@ -40,8 +40,8 @@
     <h1 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h1>
 </div>
     	<div class="row">
-                          <div class="col-1 mb-1">
-            <div class='card bg-white border-secondary rounded h-100'>
+                          
+            <div class='card bg-white border-secondary rounded '>
               	<div class="card-header mystyle px-1">
                   <span class="text-muted">Exploratory Data Analysis</span>
                 </div>
@@ -50,7 +50,7 @@
                 
                   <small class='card-text mystyle' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
-              </div> </div> </div>
+              </div> </div> 
         <div class="row">
             <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-1">
                 <div class="card-footer mystyle px-1 text-muted">
@@ -238,9 +238,9 @@
   <br><br><br>
   <p style="float:center;">
                   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <h1><i class="fa fa-sort-up pe-5"></i></h1>
+    <i class="fa fa-sort-up pe-5"></i>
   </a></p>
-  <span class="ps-2" style="float:left;">
+  <span class="ps-2" style="float:center;">
   <i class="fa fa-linkedin">&nbsp;<a href="www.linkedin.com/in/jobsforjuhi" target="_blank">jobsforjuhi</a></i>&ensp;||&ensp;
                   <i class="fa fa-envelope-o">&nbsp;<a href="mailto:jobsforjuhi@hotmail.com">jobsforjuhi@hotmail.com</a></i>&ensp;||&ensp;
                   <i class="fa fa-github">&nbsp;<a href="https://juhi2021.github.io/docs/index.html#about" target="_blank">juhi2021</a></i>
