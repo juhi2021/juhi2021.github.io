@@ -13,7 +13,9 @@
 <body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="0">
 
 <div id="about">
-
+<p class='card-text'> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
+                  
+                  </p>
 <div class='card mystyle text-secondary bg-white border-0 rounded m-2'>
 <div class='card-body p-3'>
                   <p class='card-text'> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
@@ -30,7 +32,7 @@
     <div class="row">
     <p class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 </div>
-    	<div class="row mb-1">
+    	<div class="row mb-2">
                           
             <div class='card bg-white border-secondary rounded '>
               	<div class="card-header mystyle px-1">
@@ -41,11 +43,11 @@
                 
                   <small class='card-text mystyle' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
-              
+                </div>
                 <div class="card-footer px-1 text-muted">
                   <small>
                   	<i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
-                  	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.pdf" target="_blank">
+                  	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html">
                     	Read more...
                     </a></span>
                   </small>
@@ -67,7 +69,7 @@
                 <div class="card-footer px-1 text-muted">
                   <small>
                   	<i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
-                  	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.pdf" target="_blank">
+                  	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html">
                     	Read more...
                     </a></span>
                   </small>
@@ -92,7 +94,7 @@
     	<div class="row">
       	<div class="card bg-white border-0 rounded h-50">
             <div class="card-body p-0 m-0">
-                <p class="card-title"><a href="/docs/Feature_Selection.html" target="_blank">Feature Engineering</a></p>
+                <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
                 <h2 class="card-text">Defines feature engineering</h2>
             </div>
 </div>
@@ -105,7 +107,7 @@
     	<div class="row">
       	<div class="card bg-white border-0 rounded h-50">
             <div class="card-body p-0 m-0">
-                <p class="card-title"><a href="/docs/Feature_Selection.html" target="_blank">Feature Engineering</a></p>
+                <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
                 <h2 class="card-text">Defines feature engineering</h2>
             </div>
 </div>
@@ -118,7 +120,7 @@
     	<div class="row">
       	<div class="card bg-white border-0 rounded h-50">
             <div class="card-body p-0 m-0">
-                <p class="card-title"><a href="/docs/Feature_Selection.html" target="_blank">Feature Engineering</a></p>
+                <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
                 <h2 class="card-text">Defines feature engineering</h2>
             </div>
 </div>
