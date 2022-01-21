@@ -50,20 +50,19 @@
                 
                   <small class='card-text mystyle' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
-              </div> </div> 
-        <div class="row">
-            <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-1">
-                <div class="card-footer mystyle px-1 text-muted">
+              
+                <div class="card-footer px-1 text-muted">
                   <small>
                   	<i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
-                  	<span style="float:right;"><a class="card-link mystyle" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.pdf" target="_blank">
+                  	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.pdf" target="_blank">
                     	Read more...
                     </a></span>
                   </small>
                 </div>
             </div>          
           </div>     
-                  <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-1">
+      <div class="row">
+                  
             <div class='card bg-white border-secondary rounded h-100'>
               	<div class="card-header px-1">
                   <span class="text-muted">Exploratory Data Analysis</span>
@@ -84,6 +83,7 @@
                 </div>
             </div>          
           </div>  
+        <div class="row">
                   <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-1">
             <div class='card bg-white border-secondary rounded h-100'>
               	<div class="card-header px-1">
