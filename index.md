@@ -1,8 +1,5 @@
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Latest compiled and minified CSS -->
+  
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Latest compiled JavaScript -->
@@ -10,12 +7,22 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+        card {
+      color: #666666; font-family: 'Open Sans';
+      font-size: calc(20px - 1vw);
+      line-height: calc(1.1em + 0.5vw);
+    }
+
+    
+</style>
 </head>
 
-<body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="50">
+<body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="0">
 
 <div id="about">
-<br><br><br>
+
 <div class='card text-secondary bg-white border-0 rounded h-100 m-2'>
 <div class='card-body p-3'>
                   <p class='card-text'> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
@@ -30,7 +37,7 @@
 <div id="projects">
     <div class="container-fluid bg-white">
     <div class="row">
-    <h6 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h6>
+    <h3 class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></h3>
 </div>
     	<div class="row">
                           <div class="col-12 col-sm-4 col-md-3 col-lg-3 mb-1">
@@ -125,7 +132,7 @@
 
 <!-- Container (Contact Section) -->
 <div id="articles">
-    <h6 class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></h6>
+    <h3 class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></h3>
   <div id="myCarousel" class="carousel slide my-0 py-0 px-5" data-bs-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
