@@ -80,7 +80,7 @@
                   
               </div>            
     </div> 	        
-</div>
+
 
 
 <!-- Container (Contact Section) -->
