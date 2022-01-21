@@ -6,7 +6,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./cards.html).
+[Link to another page](./articles.html).
 
 There should be whitespace between paragraphs.
 
