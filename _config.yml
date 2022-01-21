@@ -1,1 +1,12 @@
 theme: jekyll-theme-architect
+markdown: kramdown
+<script type="application/ld+json">
+  {
+    "description":"Artificial Intelligence",
+    "url":"https://juhi2021.github.io/",
+    "@type":"WebSite",
+    "headline":"Juhi Jain - Artificial Intelligence",
+    "name":"Juhi Jain",
+    "@context":"https://schema.org"
+  }
+</script>
