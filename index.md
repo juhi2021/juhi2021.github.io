@@ -1,21 +1,33 @@
 <head>
-  <style>
-    .card {
-      /* Add shadows to create the "card" effect */
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.color1 {
+			linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+			background-size: 128px 128px, auto;
+			background-color: #726193;
+		}
+        body {
+      color: #666666; font-family: 'Open Sans';
+      font-size: calc(20px - 1vw);
+      line-height: calc(1.1em + 0.5vw);
     }
 
-    /* On mouse-over, add a deeper shadow */
-    .card:hover {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    .zoom:hover {
+      border: 5px solid #3E7DC0 !important;
+      
     }
-
-    /* Add some padding inside the card container */
-    .container {
-      padding: 2px 16px;
-    }
-  </style>
+    .card-img-top {
+      
+      width: 100vw; 
+      height: calc(120px + 1.5vw);
+      }
+</style>
 </head>
   
 <body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="0">
