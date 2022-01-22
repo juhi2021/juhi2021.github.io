@@ -8,17 +8,17 @@
 
 
 <div id="projects">
-    <div class="container-fluid bg-light p-0">
+    <div class="container-fluid p-0">
     <div class="row">
     <p class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 </div>
-    	<div class="row bg-light mb-2">
+    	<div class="row mb-2">
                   
             <div class='card bg-light border-light rounded h-100'>
               	<div class="card-header bg-transparent">
                   <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
-                <div class='card-body bg-secondary'>
+                <div class='card-body bg-transparent'>
                 <span class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</span>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
@@ -34,14 +34,14 @@
                 </div>
             </div>          
           </div>  
-      <div class="row bg-tansparent mb-2">
+      <div class="row mb-2">
                   
-            <div class='card bg-tansparent border-light rounded h-100'>
+            <div class='card bg-light border-light rounded h-100'>
               	<div class="card-header bg-transparent">
-                  <span class="text-muted fs-5 fw-bold">Exploratory Data Analysis</span>
+                  <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
                 <div class='card-body bg-transparent'>
-                <h2 class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></h2>
+                <span class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</span>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
@@ -55,7 +55,7 @@
                   </small>
                 </div>
             </div>          
-          </div>  
+          </div> 
         
                   
               </div>            
@@ -70,9 +70,9 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-      <div class="container-fluid bg-white">
+      <div class="container-fluid ">
     	<div class="row">
-      	<div class="card bg-white border-0 rounded h-50">
+      	<div class="card bg-light border-0 rounded h-50">
             <div class="card-body p-0 m-0">
                 <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
                 <h2 class="card-text">Defines feature engineering</h2>
@@ -83,9 +83,9 @@
       </div>
 
       <div class="carousel-item">
-      <div class="container-fluid bg-white">
+      <div class="container-fluid ">
     	<div class="row">
-      	<div class="card bg-white border-0 rounded h-50">
+      	<div class="card bg-light border-0 rounded h-50">
             <div class="card-body p-0 m-0">
                 <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
                 <h2 class="card-text">Defines feature engineering</h2>
@@ -96,9 +96,9 @@
       </div>
       
       <div class="carousel-item">
-      <div class="container-fluid bg-white">
+      <div class="container-fluid bg-light">
     	<div class="row">
-      	<div class="card bg-white border-0 rounded h-50">
+      	<div class="card bg-light border-0 rounded h-50">
             <div class="card-body p-0 m-0">
                 <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
                 <h2 class="card-text">Defines feature engineering</h2>
