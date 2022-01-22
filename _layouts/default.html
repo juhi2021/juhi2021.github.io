@@ -18,11 +18,11 @@
   <body>
     <header>
       <div class="inner" >
-        <a href="{{ '/' | absolute_url }}" style="text-decoration: none;">
+        <a href="{{ '/' | absolute_url }}" class="text-decoration-none">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2><br>
-        <a href="{{ site.github.repository_name }}" class="button" style="text-decoration: none;">
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <a href="{{ site.github.repository_name }}" class="text-decoration-none">
           <small>View project on</small> GitHub
         </a>
         <div class="list-group  list-group-horizontal bg-transparent">
@@ -41,10 +41,10 @@
           <div class="container-fluid">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link link-info" aria-current="page" href="#articles">Articles</a>
+                  <a class="nav-link link-info fs-3 fw-bold" aria-current="page" href="#articles">Articles</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link-info" href="#projects">Projects</a>
+                  <a class="nav-link link-info fs-3 fw-bold" href="#projects">Projects</a>
                 </li>
               </ul>
            </div>
