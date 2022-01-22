@@ -1,11 +1,7 @@
 <head>
   
 <style>
-    body {
-       color: #666666; 
-       font-size: calc(25px - 1vw);
-       line-height: calc(1.1em + 0.5vw); 
-    }
+    
     .card:hover {
 	    box-shadow: 5px 6px 6px 2px grey;
 	opacity: 1.3;
@@ -20,7 +16,7 @@
 <body id="myPage">
 
 <div id="about">
-<span class='card-text'> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
+<span> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
                     </span>
 </div>
 
