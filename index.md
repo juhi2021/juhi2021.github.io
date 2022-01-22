@@ -10,7 +10,7 @@
     .zoom:hover {
       border: 5px solid #3E7DC0 !important;
     }
-    .cards:hover {
+    .card:hover {
 	    box-shadow: 5px 6px 6px 2px #e9ecef;
 	    transform: scale(1.1)
 	}
