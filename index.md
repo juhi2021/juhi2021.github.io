@@ -59,12 +59,12 @@
           </div>     
       <div class="row">
                   
-            <div class='card bg-light border-0 rounded h-100'>
-              	<div class="card-header bg-light ">
-                  <span class="text-muted">Exploratory Data Analysis</span>
+            <div class='card bg-light border-secondary rounded h-100'>
+              	<div class="card-header bg-light">
+                  <h3 class="text-muted">Exploratory Data Analysis</h3>
                 </div>
-                <div class='card-body bg-light '>
-                <p class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></p>
+                <div class='card-body bg-white'>
+                <h2 class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></h2>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
