@@ -111,13 +111,13 @@
 
     <!-- Left and right controls -->
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <h1><span class="fa fa-angle-left text-danger"></span></h1>
+     <span><h1><i class="fa fa-angle-left text-danger"></i></h1></span>
     <span class="sr-only">Previous</span>
   </button>
   
   
   <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <h1><span class="fa fa-angle-right text-danger"></span></h1>
+    <span><h1><i class="fa fa-angle-right text-danger"></i></h1></span>
     <span class="visually-hidden">Next</span>
   </button>
   
