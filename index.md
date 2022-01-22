@@ -14,12 +14,12 @@
 </div>
     	<div class="row mb-2">
                   
-            <div class='card bg-light border-light rounded h-100'>
+            <div class='card bg-light border-secondary rounded h-100'>
               	<div class="card-header bg-transparent">
                   <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
                 <div class='card-body bg-transparent'>
-                <span class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</span>
+                <p class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</p>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
@@ -36,12 +36,12 @@
           </div>  
       <div class="row mb-2">
                   
-            <div class='card bg-light border-light rounded h-100'>
+            <div class='card bg-light border-secondary rounded h-100'>
               	<div class="card-header bg-transparent">
                   <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
                 <div class='card-body bg-transparent'>
-                <span class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</span>
+                <p class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</p>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
@@ -66,29 +66,29 @@
 <!-- Container (Contact Section) -->
 <div id="articles">
   <p class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></p>
-  <div id="myCarousel" class="carousel slide my-0 py-0 px-5" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide my-0 py-0 px-5 bg-light" data-bs-ride="carousel">
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-      <div class="container-fluid ">
+    <div class="carousel-inner bg-light">
+      <div class="carousel-item bg-light active">
+      <div class="container-fluid bg-light">
     	<div class="row">
       	<div class="card bg-light border-0 rounded h-50">
             <div class="card-body p-0 m-0">
-                <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
-                <h2 class="card-text">Defines feature engineering</h2>
+                <p class="text-muted fs-6 fw-bold text-decoration-none"><a href="/docs/Feature_Selection.html">Feature Engineering</a></p>
+             <small class='card-text'>Defines feature engineering</small>
             </div>
 </div>
       </div>
          </div>
       </div>
 
-      <div class="carousel-item">
-      <div class="container-fluid ">
+      <div class="carousel-item bg-light">
+      <div class="container-fluid bg-light">
     	<div class="row">
       	<div class="card bg-light border-0 rounded h-50">
             <div class="card-body p-0 m-0">
-                <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
-                <h2 class="card-text">Defines feature engineering</h2>
+                <p class="text-muted fs-6 fw-bold text-decoration-none"><a href="/docs/Feature_Selection.html">Feature Engineering</a></p>
+             <small class='card-text'>Defines feature engineering</small>
             </div>
 </div>
          </div>
@@ -100,8 +100,8 @@
     	<div class="row">
       	<div class="card bg-light border-0 rounded h-50">
             <div class="card-body p-0 m-0">
-                <p class="card-title"><a href="/docs/Feature_Selection.html" style="text-decoration: none;">Feature Engineering</a></p>
-                <h2 class="card-text">Defines feature engineering</h2>
+               <p class="text-muted fs-6 fw-bold text-decoration-none"><a href="/docs/Feature_Selection.html">Feature Engineering</a></p>
+             <small class='card-text'>Defines feature engineering</small>
             </div>
 </div>
          </div>
