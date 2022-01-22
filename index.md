@@ -26,23 +26,23 @@
 
 
 <div id="projects">
-    <div class="container-fluid bg-tansparent p-0">
+    <div class="container-fluid bg-light p-0">
     <div class="row">
     <p class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 </div>
-    	<div class="row bg-tansparent mb-2">
+    	<div class="row mb-2">
                   
-            <div class='card bg-tansparent border-light rounded h-100'>
-              	<div class="card-header bg-transparent">
+            <div class='card border-light rounded h-100'>
+              	<div class="card-header ">
                   <span class="text-muted fs-5 fw-bold">Exploratory Data Analysis</span>
                 </div>
-                <div class='card-body bg-transparent'>
+                <div class='card-body'>
                 <h2 class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></h2>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
                 </div> 
-                <div class="card-footer bg-transparent text-muted">
+                <div class="card-footer text-muted">
                   <small>
                   	<i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
                   	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html">
