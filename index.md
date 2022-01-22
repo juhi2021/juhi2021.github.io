@@ -3,6 +3,8 @@
 <style>
     body {
        color: #666666; 
+       font-size: calc(30px - 1vw);
+       line-height: calc(1.1em + 0.5vw); 
     }
     .card:hover {
 	    box-shadow: 5px 6px 6px 2px grey;
