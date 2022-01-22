@@ -1,13 +1,3 @@
-<head>
-  
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  
-  
-</head>
-
 <body id="myPage" data-spy="scroll"  data-target=".navbar" data-offset="0">
 
 <div id="about">
