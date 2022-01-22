@@ -1,18 +1,4 @@
-<head>
-  
-<style>
-    
-    .card:hover {
-	    box-shadow: 5px 6px 6px 2px grey;
-	opacity: 1.3;
-	}
-    .card-img-top {
-      width: 100vw; 
-      height: calc(120px + 1.5vw);
-      }
-</style>
-</head>
-  
+ 
 <body id="myPage">
 
 <div id="about">
