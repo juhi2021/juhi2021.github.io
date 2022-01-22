@@ -53,17 +53,17 @@
           </div>     
       <div class="row">
                   
-            <div class='card bg-light border-secondary rounded h-100'>
-              	<div class="card-header bg-light">
-                  <h3 class="text-muted">Exploratory Data Analysis</h3>
+            <div class='card bg-tansparent border-light rounded h-100'>
+              	<div class="card-header bg-transparent">
+                  <span class="text-muted fs-5 fw-bold">Exploratory Data Analysis</span>
                 </div>
-                <div class='card-body bg-white'>
+                <div class='card-body bg-transparent'>
                 <h2 class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></h2>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
                 </div> 
-                <div class="card-footer bg-light text-muted">
+                <div class="card-footer bg-transparent text-muted">
                   <small>
                   	<i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
                   	<span style="float:right;"><a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html">
