@@ -2,12 +2,11 @@
   
 <style>
     body {
-      color: #666666; font-family: 'Open Sans';
-      font-size: calc(20px - 1vw);
-      line-height: calc(1.1em + 0.5vw);
+       color: #666666; 
     }
     .card:hover {
-	    box-shadow: 5px 6px 6px 2px #e9ecef;
+	    box-shadow: 5px 6px 6px 2px grey;
+	opacity: 1.3;
 	}
     .card-img-top {
       width: 100vw; 
@@ -25,7 +24,7 @@
 
 
 <div id="projects">
-    <div class="container-fluid bg-light p-0">
+    <div class="container-fluid bg-tansparent p-0">
     <div class="row">
     <p class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 </div>
@@ -51,7 +50,7 @@
                 </div>
             </div>          
           </div>     
-      <div class="row">
+      <div class="row mb-2">
                   
             <div class='card bg-tansparent border-light rounded h-100'>
               	<div class="card-header bg-transparent">
