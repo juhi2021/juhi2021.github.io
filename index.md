@@ -12,14 +12,14 @@
     <div class="row">
     <p class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 </div>
-    	<div class="row bg-tansparent mb-2">
+    	<div class="row bg-light mb-2">
                   
-            <div class='card bg-tansparent border-light rounded h-100'>
+            <div class='card bg-light border-light rounded h-100'>
               	<div class="card-header bg-transparent">
-                  <span class="text-muted fs-5 fw-bold">Exploratory Data Analysis</span>
+                  <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
-                <div class='card-body bg-transparent'>
-                <h2 class="card-title"><strong>Comcast Telecom Consumer Complaints</strong></h2>
+                <div class='card-body bg-secondary'>
+                <span class="text-muted fs-5 fw-bold">Comcast Telecom Consumer Complaints</span>
                 
                   <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
                   
