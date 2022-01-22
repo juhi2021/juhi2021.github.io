@@ -7,23 +7,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-.color1 {
-			linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
-			background-size: 128px 128px, auto;
-			background-color: #726193;
-		}
-        body {
-      color: #666666; font-family: 'Open Sans';
-      font-size: calc(20px - 1vw);
-      line-height: calc(1.1em + 0.5vw);
-    }
-
     .zoom:hover {
       border: 5px solid #3E7DC0 !important;
-      
     }
+    .cards:hover {
+	    box-shadow: 5px 6px 6px 2px #e9ecef;
+	    transform: scale(1.1)
+	}
     .card-img-top {
-      
       width: 100vw; 
       height: calc(120px + 1.5vw);
       }
