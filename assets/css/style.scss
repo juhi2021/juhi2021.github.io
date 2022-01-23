@@ -1,3 +1,4 @@
+@import "{{ site.theme }}";
 
 body {
   color: #666666; 
@@ -22,4 +23,3 @@ body {
   width: 100vw; 
   height: calc(120px + 1.5vw);
 }
-@import "{{ site.theme }}";
