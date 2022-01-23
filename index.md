@@ -55,7 +55,7 @@
 							<div class='card bg-light border-0 rounded h-100'>
 								<div class='card-body py-0 m-0 bg-transparent'>
 									<p class="text-muted fs-6 fw-bold"> <a class="
-card-text text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a> </p> <small class='card-text' id='data-card-text'>Defines feature engineering</small> </div>
+link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a> </p> <small class='card-text' id='data-card-text'>Defines feature engineering</small> </div>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@ card-text text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feat
 						<div class="row mb-2">
 							<div class='card bg-light border-0 rounded h-100'>
 								<div class='card-body py-0 m-0 bg-transparent'>
-									<p class="text-muted fs-6 fw-bold"> <a class="card-text text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a> </p> <small class='card-text' id='data-card-text'>Defines feature engineering</small> </div>
+									<p class="text-muted fs-6 fw-bold"> <a class="link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a> </p> <small class='card-text' id='data-card-text'>Defines feature engineering</small> </div>
 							</div>
 						</div>
 					</div>
