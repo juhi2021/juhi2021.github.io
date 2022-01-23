@@ -25,16 +25,21 @@ body {
 }
 
 code, pre {
-  all: unset;
+  margin-bottom: unset;
+  font-family: unset;
+  font-size: unset;
+  color: unset;
 }
 
 code {
-  all: unset;
+  padding: unset;
 }
 
 pre {
-  all: unset;
+  padding: unset;
+  overflow: unset;
+  border: unset;
 }
 pre code {
-  all: unset;
+  padding: unset;
 }
