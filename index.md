@@ -1,5 +1,5 @@
 <head>
-	<link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="screen" type="text/css">
+	<link rel="stylesheet" href="/assets/css/style.scss" media="screen" type="text/css">
 </head>
 <body id="myPage">
 	<div id="about"> <span> Namastey!!   Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
