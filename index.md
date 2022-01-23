@@ -124,7 +124,7 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 		<br>
 		<br>
 		<p style="float:center;">
-			<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP"> <span class="text-muted fs-6 fw-bold"><i class="fa fa-sort-up pe-5"></i></span> </a>
+			<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP"> <span class="text-muted fs-1 fw-bold"><i class="fa fa-sort-up pe-5"></i></span> </a>
 		</p>
 	</footer>
 	<script>
