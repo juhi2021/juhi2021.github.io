@@ -8,9 +8,9 @@
 
 
 <div id="projects">
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-1">
     <div class="row">
-    <p class="text-success">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
+     <p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 </div>
     	<div class="row mb-2">
                   
@@ -66,13 +66,13 @@
 <!-- Container (Contact Section) -->
 <div id="articles">
   <p class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></p>
-  <div id="myCarousel" class="carousel slide my-0 py-0 px-5 bg-light" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide my-0 py-0 px-5 " data-bs-ride="carousel">
     <!-- Wrapper for slides -->
-    <div class="carousel-inner bg-light">
-      <div class="carousel-item bg-light active">
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
       <div class="container-fluid bg-light">
         <div class="row mb-2">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class='card bg-light border-1 rounded h-100'>
                 <div class='card-body py-0 m-0 bg-transparent'>
                   <p class="text-muted fs-6 fw-bold">
                     <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
@@ -87,7 +87,7 @@
       <div class="carousel-item bg-light active">
       <div class="container-fluid bg-light">
         <div class="row mb-2">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class='card bg-light border-1 rounded h-100'>
                 <div class='card-body py-0 m-0 bg-transparent'>
                   <p class="text-muted fs-6 fw-bold">
                     <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
@@ -117,13 +117,13 @@
 
     <!-- Left and right controls -->
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-     <span><h1><i class="fa fa-angle-left text-danger"></i></h1></span>
+     <span class="text-muted fs-3 fw-bold"><i class="fa fa-angle-left text-danger"></i></span>
     <span class="sr-only">Previous</span>
   </button>
   
   
   <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span><h1><i class="fa fa-angle-right text-danger"></i></h1></span>
+    <span class="text-muted fs-3 fw-bold"><i class="fa fa-angle-right text-danger"></i></span>
     <span class="visually-hidden">Next</span>
   </button>
   
@@ -135,7 +135,7 @@
 <div id="topics">
   <div class="container-fluid">
     <div class="row">
-    <p class="text-success text-center">Articles and Projects Topics</p>
+    <span class="text-success fs-6 fw-bold">Articles and Projects Topics</span>
     </div>
     <br>
     <div class="row">
