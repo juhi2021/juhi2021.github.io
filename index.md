@@ -72,10 +72,10 @@
       <div class="carousel-item active">
       <div class="container-fluid bg-light">
         <div class="row mb-2">
-            <div class='card bg-light border-1 rounded h-100'>
+            <div class='card bg-light border-0 rounded h-100'>
                 <div class='card-body py-0 m-0 bg-transparent'>
                   <p class="text-muted fs-6 fw-bold">
-                    <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                    <a class="card-link text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
                   </p>
                   <small class='card-text' id='data-card-text'>Defines feature engineering</small>
                 </div> 
@@ -87,10 +87,10 @@
       <div class="carousel-item bg-light active">
       <div class="container-fluid bg-light">
         <div class="row mb-2">
-            <div class='card bg-light border-1 rounded h-100'>
+            <div class='card bg-light border-0 rounded h-100'>
                 <div class='card-body py-0 m-0 bg-transparent'>
                   <p class="text-muted fs-6 fw-bold">
-                    <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                    <a class="card-link text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
                   </p>
                   <small class='card-text' id='data-card-text'>Defines feature engineering</small>
                 </div> 
@@ -102,7 +102,7 @@
       <div class="carousel-item bg-light active">
       <div class="container-fluid bg-light">
         <div class="row mb-2">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class='card bg-light border-0 px-1 rounded h-100'>
                 <div class='card-body py-0 m-0 bg-transparent'>
                   <p class="text-muted fs-6 fw-bold">
                     <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
