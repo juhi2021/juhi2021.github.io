@@ -14,7 +14,7 @@
 </div>
     	<div class="row mb-2">
                   
-            <div class='card bg-light border-1 rounded h-100'>
+            <div class='card bg-light border-1 px-1 rounded h-100'>
               	<div class="card-header border-0 bg-transparent">
                   <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
@@ -36,7 +36,7 @@
           </div> 
       <div class="row mb-2">
                   
-            <div class='card bg-light border-1 rounded h-100'>
+            <div class='card bg-light border-1 px-1 rounded h-100'>
               	<div class="card-header border-0 bg-transparent">
                   <h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2>
                 </div>
@@ -71,41 +71,47 @@
     <div class="carousel-inner bg-light">
       <div class="carousel-item bg-light active">
       <div class="container-fluid bg-light">
-    	<div class="row">
-      	<div class="card bg-light border-0 rounded h-50">
-            <div class="card-body p-0 m-0">
-                <p class="card-title text-muted fs-5 fw-bold"><a href="/docs/Feature_Selection111.html">Feature Engineering</a></p>
-             <small class='card-text'>Defines feature engineering</small>
-            </div>
-</div>
+        <div class="row mb-2">
+            <div class='card bg-light border-1 px-1 rounded h-100'>
+                <div class='card-body py-0 m-0 bg-transparent'>
+                  <p class="text-muted fs-6 fw-bold">
+                    <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                  </p>
+                  <small class='card-text' id='data-card-text'>Defines feature engineering</small>
+                </div> 
+             </div>          
+         </div> 
       </div>
-         </div>
       </div>
 
-      <div class="carousel-item bg-light">
+      <div class="carousel-item bg-light active">
       <div class="container-fluid bg-light">
-    	<div class="row">
-      	<div class="card bg-light border-0 rounded h-50">
-            <div class="card-body p-0 m-0">
-                <p class="card-title text-muted fs-5 fw-bold"><a href="/docs/Feature_Selection.html">Feature Engineering</a></p>
-             <small class='card-text'>Defines feature engineering</small>
-            </div>
-</div>
-         </div>
-         </div>
+        <div class="row mb-2">
+            <div class='card bg-light border-1 px-1 rounded h-100'>
+                <div class='card-body py-0 m-0 bg-transparent'>
+                  <p class="text-muted fs-6 fw-bold">
+                    <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                  </p>
+                  <small class='card-text' id='data-card-text'>Defines feature engineering</small>
+                </div> 
+             </div>          
+         </div> 
+      </div>
       </div>
       
-      <div class="carousel-item">
+      <div class="carousel-item bg-light active">
       <div class="container-fluid bg-light">
-    	<div class="row">
-      	<div class="card bg-light border-0 rounded h-50">
-            <div class="card-body p-0 m-0">
-               <p class="card-title text-muted fs-5 fw-bold"><a href="/docs/Feature_Selection.html">Feature Engineering</a></p>
-             <small class='card-text'>Defines feature engineering</small>
-            </div>
-</div>
-         </div>
-         </div>
+        <div class="row mb-2">
+            <div class='card bg-light border-1 px-1 rounded h-100'>
+                <div class='card-body py-0 m-0 bg-transparent'>
+                  <p class="text-muted fs-6 fw-bold">
+                    <a class="card-link" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                  </p>
+                  <small class='card-text' id='data-card-text'>Defines feature engineering</small>
+                </div> 
+             </div>          
+         </div> 
+      </div>
       </div>
    </div>
 
@@ -169,14 +175,8 @@
   <br><br><br>
   <p style="float:center;">
     <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <h1><i class="fa fa-sort-up pe-5"></i></h1>
+    <span class="text-muted fs-6 fw-bold"><i class="fa fa-sort-up pe-5"></i></span>
   </a></p>
-  <span style="float:center;">
-  <i class="fa fa-linkedin">&nbsp;<a href="www.linkedin.com/in/jobsforjuhi" target="_blank">jobsforjuhi</a></i>&ensp;||&ensp;
-                  <i class="fa fa-envelope-o">&nbsp;<a href="mailto:jobsforjuhi@hotmail.com">jobsforjuhi@hotmail.com</a></i>&ensp;||&ensp;
-                  <i class="fa fa-github">&nbsp;<a href="https://juhi2021.github.io/docs/index.html#about" target="_blank">juhi2021</a></i>
-                  </span>
-                  
 </footer>
 <script>
 $(document).ready(function(){
