@@ -23,3 +23,18 @@ body {
   width: 100vw; 
   height: calc(120px + 1.5vw);
 }
+
+code, pre {
+  all: unset;
+}
+
+code {
+  all: unset;
+}
+
+pre {
+  all: unset;
+}
+pre code {
+  all: unset;
+}
