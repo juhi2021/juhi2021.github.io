@@ -82,9 +82,10 @@
 	<br>
 	<br>
 	<div id="topics">
-		<div class="container-fluid">
-			<div class="row"> <span class="text-success fs-6 fw-bold">Articles and Projects Topics</span> </div>
-			<br>
+		<div class="container-fluid p-1">
+			<div class="row">
+				<p class="text-success fs-6 fw-bold">Articles and Projects Topics</p>
+			</div>
 			<div class="row">
 				<div class="col">
 					<button type="button" class="btn py-0 btn-sm btn-primary position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
