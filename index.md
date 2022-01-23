@@ -38,7 +38,11 @@
 	</div>
 	<!-- Container (Contact Section) -->
 	<div id="articles">
-		<p class="text-success m-3">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></p>
+    	<div class="container-fluid p-1">
+			<div class="row">
+				<p class="text-success fs-6 fw-bold">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></p>
+			</div>
+            <div class="row">
 		<div id="myCarousel" class="carousel slide my-0 py-0 px-5 " data-bs-ride="carousel">
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner ">
@@ -77,6 +81,8 @@
 			<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> <span class="text-muted fs-3 fw-bold"><i class="fa fa-angle-left text-danger"></i></span> <span class="sr-only">Previous</span> </button>
 			<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> <span class="text-muted fs-3 fw-bold"><i class="fa fa-angle-right text-danger"></i></span> <span class="visually-hidden">Next</span> </button>
 		</div>
+	</div>
+    </div>
 	</div>
 	<br>
 	<br>
