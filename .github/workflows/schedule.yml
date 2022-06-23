@@ -42,13 +42,15 @@ jobs:
       - name: Pull data
         run: python3 main.py
       
-      #git config --local user.email "action@github.com"
-      #    git config --local user.name "GitHub Action"
+      #
+      #    
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
       - name: Git commit
         run: |
-          git add news_data
+          git add news_data -A
           if ! git diff-index --quiet HEAD; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
             git commit -m "Commiting data"
             git push origin main
           fi
