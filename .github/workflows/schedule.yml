@@ -41,7 +41,9 @@ jobs:
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
       - name: Git commit
         run: |
-          git add docs
+          git add news_data
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git commit -m "Commiting data"
           
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
