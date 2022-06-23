@@ -24,11 +24,12 @@ def process_page(xml: str) -> List[List[Union[int, str]]]:
     
 def write_to_file(lines):
     # Writing to file
-    write_file_name = "news_data/cards_medium_ss.html"
+    write_file_name = "cards_medium_ss.html"
     print(f"Writing data to file...{write_file_name}")
-    with open(write_file_name, "xw") as medium_file:
+    with open(write_file_name, "x") as medium_file:
       # Writing data to a file
       medium_file.writelines(lines)
+    medium_file.close()
     print("Done writing data.")
     
 def convert_html(webpage):
