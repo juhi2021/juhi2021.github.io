@@ -24,7 +24,7 @@ def process_page(xml: str) -> List[List[Union[int, str]]]:
     
 def write_to_file(lines):
     # Writing to file
-    write_file_name = "cards_medium_ss.html"
+    write_file_name = "news_data/cards_medium_ss.html"
     print(f"Writing data to file...{write_file_name}")
     with open(write_file_name, "w") as medium_file:
       # Writing data to a file
