@@ -29,7 +29,11 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: "3.8"
-          
+      
+      # If using Python:
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
       # If using Python:
       - name: Pull data
         run: python3 main.py
