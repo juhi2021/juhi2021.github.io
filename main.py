@@ -8,12 +8,12 @@ from bs4 import BeautifulSoup
 
 URL = "https://medium.com/feed/@vinothu"
 
-def process_page(html: str) -> List[List[Union[int, str]]]:
+def process_page(xml: str) -> List[List[Union[int, str]]]:
     """
     This is the meat of your web scraper:
     Pulling out the data you want from the HTML of the web page
     """
-    webpage_parsed = BeautifulSoup(html, 'xml')
+    webpage_parsed = BeautifulSoup(xml, 'xml')
     webpage_title = webpage_parsed.title
     print(webpage_title)
 
@@ -21,7 +21,7 @@ def pull_data(url: str) -> List[List[Union[int, str]]]:
     resp = requests.get(url)
     resp.raise_for_status()
 
-    content = resp.content.decode('utf8')
+    content = response.content#resp.content.decode('utf8')
     return process_page(content)
 
 
