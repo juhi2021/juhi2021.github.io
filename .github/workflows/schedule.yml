@@ -47,7 +47,7 @@ jobs:
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
       - name: Git commit
         run: |
-          git add news_data -A
+          git add news_data
           if ! git diff-index --quiet HEAD; then
             git commit -m "Commiting data"
             git push origin main
