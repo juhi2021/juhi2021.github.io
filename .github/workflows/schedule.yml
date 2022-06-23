@@ -53,7 +53,11 @@ jobs:
       # NOTE: Check that your branch name is correct here
       - name: Git push
         run: |
+          echo ${GITHUB_ACTOR}
+          echo ${TOKEN}
           git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
       #- name: Git commit
