@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import List, Union
 
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 
 URL = "https://medium.com/feed/@vinothu"
 
