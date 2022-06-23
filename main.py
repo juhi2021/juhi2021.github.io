@@ -2,7 +2,7 @@ import csv
 import sys
 from datetime import datetime
 from typing import List, Union
-import pandas as pd
+#import pandas as pd
 
 import requests
 from bs4 import BeautifulSoup
@@ -19,7 +19,7 @@ def process_page(xml: str) -> List[List[Union[int, str]]]:
     print(webpage_title)
     
     #create empty dataframe
-    df = pd.DataFrame(columns=['Date Created', 'Title', 'URL', 'Image'])
+    #df = pd.DataFrame(columns=['Date Created', 'Title', 'URL', 'Image'])
     write_to_file(convert_html(webpage_parsed))
     
 def write_to_file(lines):
