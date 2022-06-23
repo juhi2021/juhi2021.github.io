@@ -18,8 +18,8 @@ def process_page(xml: str) -> List[List[Union[int, str]]]:
     print(webpage_title)
 
 def pull_data(url: str) -> List[List[Union[int, str]]]:
-    resp = requests.get(url)
-    resp.raise_for_status()
+    response = requests.get(url)
+    response.raise_for_status()
 
     content = response.content#resp.content.decode('utf8')
     return process_page(content)
