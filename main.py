@@ -24,9 +24,12 @@ def process_page(xml: str) -> List[List[Union[int, str]]]:
     
 def write_to_file(lines):
     # Writing to file
-    with open("cards_medium_ss.html", "w") as medium_file:
+    write_file_name = "cards_medium_ss.html"
+    print(f"Writing data to file...{write_file_name}")
+    with open(write_file_name, "w") as medium_file:
       # Writing data to a file
       medium_file.writelines(lines)
+    print("Done writing data.")
     
 def convert_html(webpage):
     # for medium
@@ -60,7 +63,7 @@ def convert_html(webpage):
       image_src = image_parsed.img['src']
       print(f"-----------Card values {ind}-----------------")
       print(date, "\n", title_text, "\n", link_text, "\n", image_src)
-      df.loc[len(df)] = [date, title_text, link_text, image_src]
+      #df.loc[len(df)] = [date, title_text, link_text, image_src]
 
       if ind == 4:
         lines.append('<div class="col-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 mb-4">\n')
