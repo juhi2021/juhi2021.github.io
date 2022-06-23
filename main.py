@@ -13,7 +13,7 @@ def process_page(xml: str) -> List[List[Union[int, str]]]:
     This is the meat of your web scraper:
     Pulling out the data you want from the HTML of the web page
     """
-    webpage_parsed = BeautifulSoup(xml, 'xml')
+    webpage_parsed = BeautifulSoup(xml, 'lxml-xml')
     webpage_title = webpage_parsed.title
     print(webpage_title)
 
