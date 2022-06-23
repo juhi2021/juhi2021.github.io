@@ -42,27 +42,24 @@ jobs:
       - name: Pull data
         run: python3 main.py
       
-      #
-      #    
+      #git config --local user.email "action@github.com"
+      #    git config --local user.name "GitHub Action"
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
       - name: Git commit
         run: |
           git add news_data -A
           if ! git diff-index --quiet HEAD; then
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
             git commit -m "Commiting data"
-            git push origin main
           fi
           
       # NOTE: Check that your branch name is correct here
-      #- name: Git push
-      #  run: |
-      #    echo ${GITHUB_ACTOR}
-      #    echo ${TOKEN}
-      #    git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
-      #  env:
-      #    TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Git push
+        run: |
+          echo ${GITHUB_ACTOR}
+          echo ${TOKEN}
+          git push "https://${GITHUB_ACTOR}:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       # NOTE: This commits everything in the `data` directory. Make sure this matches your needs
       #- name: Git commit
