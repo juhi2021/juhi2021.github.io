@@ -16,8 +16,9 @@
         <a href="{{ '/' | absolute_url }}" class="text-decoration-none">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <small>{{ site.description | default: site.github.project_tagline }}</small>
-        
+        <div class="text-decoration-none">
+		<small>{{ site.description | default: site.github.project_tagline }}</small>
+	      </div>
 	  <div class="list-group list-group-horizontal bg-transparent" style="float: right;">
           <a class="link-info text-decoration-none fw-bold fs-5" href="#articles">
             <span class="card-link">Articles</span>
@@ -53,11 +54,11 @@
         </a>
       </div>
     </header>
-	  <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+	  <footer class="text-center text-white" style="background-color: rgba(110, 128, 219, 0.2);">
   <!-- Grid container -->
-  <div class="container p-4 pb-0">
+  <div class="container px-4 py-2 pb-0">
     <!-- Section: Social media -->
-    <section class="mb-4">
+    <section class="mb-2">
       <!-- Facebook -->
       <a
         class="btn text-white btn-floating m-1"
