@@ -95,11 +95,8 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 	</div>
     </div>
 	</div>
-	<br>
-	<br>
-	<br>
 	<div id="topics">
-		<div class="container-fluid p-1">
+		<div class="container-fluid p-1 mt-2">
 			<div class="row">
 				<p class="text-success fs-6 fw-bold">Articles and Projects Topic wise distribution </p>
 			</div>
