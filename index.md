@@ -105,7 +105,7 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 			</div>
 			<div class="row">
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-secondary btn-sm position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
@@ -117,7 +117,7 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-secondary btn-sm position-relative"> <div style='background-color:#917aff;'>NLP </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-secondary btn-sm position-relative"> NLP <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               0
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
