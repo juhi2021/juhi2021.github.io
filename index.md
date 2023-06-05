@@ -159,46 +159,10 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
     </div>
   </div>
   <!-- Footer -->
-      <footer class="text-center">
-        <br>
-        <br>
-        <br>
-        <span class="ps-2" style="float:left;">
-          <i class="fa fa-linkedin">&nbsp; <a href="www.linkedin.com/in/jobsforjuhi" target="_blank">jobsforjuhi</a>
-          </i>&ensp;||&ensp; <i class="fa fa-envelope-o">&nbsp; <a href="mailto:jobsforjuhi@hotmail.com">jobsforjuhi@hotmail.com</a>
-          </i>&ensp;||&ensp; <i class="fa fa-github">&nbsp; <a href="https://juhi2021.github.io/docs/index.html#about" target="_blank">juhi2021</a>
-          </i>
-        </span>
-        <span class="me-2" style="float:right;">
-          <a class="me-2 up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-            <h1>
-              <i class="fa fa-sort-up pe-5"></i>
-            </h1>
-          </a>
-        </span>
-      </footer>
-      <script>
-        $(document).ready(function() {
-          // Initialize Tooltip
-          $('[data-toggle="tooltip"]').tooltip();
-          // Add smooth scrolling to all links in navbar + footer link
-          $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-              // Store hash
-              var hash = this.hash;
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 100, function() {
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        })
-      </script>
+      <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 56,
+  backgroundColor: 'rgb(255, 82, 82)',
+  textColor: '#fff'
+})</script>
 </body>
