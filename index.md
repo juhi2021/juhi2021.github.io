@@ -4,7 +4,7 @@
 <body id="myPage">
 	<div id="about"> 
 		<div class='card text-secondary bg-white border-0 rounded h-100 m-2'>
-            <div class='card-body px-1 py-3'>
+            <div class='card-body px-0 py-3'>
                <p class='card-text'> Welcome to my github page!! <br><br> I am excited to share with you some of my recent projects that I have worked on. These projects just keep track of my learnings in machine learning algorithms, data science, Artificial Intelligence and AWS related concepts. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes. <br>
                   <br>Thank you 
                </p>
@@ -14,7 +14,7 @@
 	<div id="projects">
 		<div class="container-fluid p-1">
 			<div class="row">
-				<p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
+				<p class="text-secondary fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 			</div>
 			<div class="row mb-2">
 				<div class='card bg-light border-1 px-1 rounded h-100'>
@@ -50,7 +50,7 @@
 	<div id="articles">
     	<div class="container-fluid p-1">
 			<div class="row">
-				<p class="text-success fs-6 fw-bold">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></p>
+				<p class="text-secondary fs-6 fw-bold">Articles Showcase&nbsp;<i class="fa fa-angle-double-down"></i></p>
 			</div>
             <div class="row">
 		<div id="myCarousel" class="carousel slide my-0 py-0 px-5 " data-bs-ride="carousel">
@@ -101,23 +101,23 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 	<div id="topics">
 		<div class="container-fluid p-1">
 			<div class="row">
-				<p class="text-success fs-6 fw-bold">Articles and Projects Topics</p>
+				<p class="text-secondary fs-6 fw-bold">Articles and Projects Topic wise distribution </p>
 			</div>
 			<div class="row">
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-primary position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-primary position-relative"> ML <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"> ML <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-primary position-relative"> NLP <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"> NLP <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
               0
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
