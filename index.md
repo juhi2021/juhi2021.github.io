@@ -159,21 +159,7 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
     </div>
   </div>
   <!-- Footer -->
-  <footer class="footer text-light text-center py-2">
-    <small class="copyright">Template Copyright &copy; <a class="text-light text-link" href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a>
-    </small>
-    <div class="list-group list-group-horizontal bg-transparent">
-	  <a href="https://www.linkedin.com/in/jobsforjuhi" class="link-secondary" target="_blank">
-            <i class="fa fa-linkedin fa-4x"></i>
-          </a> &ensp;&ensp;
-          <a href="mailto:jobsforjuhi@hotmail.com" class="link-secondary" target="_blank">
-            <i class="fa fa-envelope-o fa-3x"></i>
-          </a>&ensp;  &ensp;
-          <a href="https://juhi2021.github.io/" class="link-secondary" target="_blank">
-            <i class="fa fa-github fa-2x"></i>
-          </a>
-	</div>
-  </footer>
+  
   <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
   <script>
     addBackToTop({
