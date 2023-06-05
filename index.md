@@ -2,8 +2,9 @@
 	<link rel="stylesheet" href="/assets/css/style.scss" media="screen" type="text/css">
 </head>
 <body id="myPage">
-	<div id="about"> <span>  Welcome!! <br><br>My name is <strong>Juhi Jain</strong>. <br><br>I have started my journey in learning machine learning, data science and Artificial Intelligence. I started this website to keep track of what I have learned till now. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes.<br><br>Enjoy Learning!! <br><br>
-                    </span> </div>
+	<div id="about"> <p class='card-text'> Welcome to my github page!! <br><br> I am excited to share with you some of my recent projects that I have worked on. These projects just keep track of my learnings in machine learning algorithms, data science, Artificial Intelligence and AWS related concepts. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes. <br>
+                  <br>Thank you 
+               </p></div>
 	<div id="projects">
 		<div class="container-fluid p-1">
 			<div class="row">
