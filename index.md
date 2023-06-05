@@ -4,7 +4,7 @@
 <body id="myPage">
 	<div id="about"> 
 		<div class='card text-secondary bg-white border-0 rounded h-100 m-2'>
-            <div class='card-body px-0 py-3'>
+            <div class='card-body px-1 py-3'>
                <p class='card-text'> Welcome to my github page!! <br><br> I am excited to share with you some of my recent projects that I have worked on. These projects just keep track of my learnings in machine learning algorithms, data science, Artificial Intelligence and AWS related concepts. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes. <br>
                   <br>Thank you 
                </p>
@@ -105,13 +105,13 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 			</div>
 			<div class="row">
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"><div style='background-color:#917aff;'> EDA </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-sm position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-secondary btn-sm position-relative"> <div style='background-color:#917aff;'>ML </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-secondary btn-sm position-relative"> ML <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
