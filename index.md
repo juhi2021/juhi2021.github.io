@@ -1,5 +1,5 @@
 <head>
-	<link rel="stylesheet" href="/assets/css/style.css" media="screen" type="text/css">
+	<link rel="stylesheet" href="/assets/css/style.scss" media="screen" type="text/css">
 </head>
 <body id="myPage">
 	<div id="about"> 
