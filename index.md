@@ -13,7 +13,7 @@
 	</div>
 	<div id="projects">
 		<div class="container-fluid">
-			<div class="row p-0">
+			<div class="row px-0 mb-2">
 				<p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 			</div>
 			<div class="row mb-1">
