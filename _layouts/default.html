@@ -16,7 +16,7 @@
         <a href="{{ '/' | absolute_url }}" class="text-decoration-none">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <p class="fs-6">{{ site.description | default: site.github.project_tagline }}</p>
+        <small>{{ site.description | default: site.github.project_tagline }}</small>
         
 	  <div class="list-group list-group-horizontal bg-transparent" style="float: right;">
           <a class="link-info text-decoration-none fw-bold fs-5" href="#articles">
@@ -42,8 +42,8 @@
         </aside>
       </div>
     </div>
-    <header style="height: 10vw;">
-      <div class="list-group list-group-horizontal bg-transparent text-center">
+    <header style="height: 10vw;align: center;">
+      <div class="list-group list-group-horizontal bg-transparent">
         <a href="https://www.linkedin.com/in/jobsforjuhi" class="link-secondary" target="_blank">
           <i class="fa fa-linkedin fa-2x"></i>
         </a> &ensp;&ensp; <a href="mailto:jobsforjuhi@hotmail.com" class="link-secondary" target="_blank">
