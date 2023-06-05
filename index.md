@@ -16,7 +16,7 @@
 			<div class="row p-0">
 				<p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 			</div>
-			<div class="row p-2 mb-2">
+			<div class="row px-2 mb-2">
 				<div class='card bg-light border-1 px-1 rounded h-100'>
 					<div class="card-header border-0 bg-transparent">
 						<h2 class="card-title"><strong>Exploratory Data Analysis</strong></h2> </div>
