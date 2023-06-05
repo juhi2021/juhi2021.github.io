@@ -111,7 +111,7 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-secondary btn-sm position-relative link-info text-decoration-none fw-bold"> ML <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+					<button type="button" class="btn py-0 btn-info btn-sm position-relative"> ML <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
