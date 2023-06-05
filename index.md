@@ -3,8 +3,8 @@
 </head>
 <body id="myPage">
 	<div id="about"> 
-		<div class='card text-secondary bg-white border-0 rounded h-100 m-2'>
-            <div class='card-body px-1 py-3'>
+		<div class='card text-secondary bg-white border-0 rounded p-0 h-100 m-2'>
+            <div class='card-body p-2'>
                <p class='card-text'> Welcome to my github page!! <br><br> I am excited to share with you some of my recent projects that I have worked on. These projects just keep track of my learnings in machine learning algorithms, data science, Artificial Intelligence and AWS related concepts. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes. <br>
                   <br>Thank you 
                </p>
@@ -12,7 +12,7 @@
          </div>
 	</div>
 	<div id="projects">
-		<div class="container-fluid p-1">
+		<div class="container-fluid px-0 py-1">
 			<div class="row">
 				<p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 			</div>
