@@ -164,7 +164,7 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
   <script>
     addBackToTop({
       diameter: 50,
-      backgroundColor: 'rgb(145, 122, 255)',
+      backgroundColor: 'rgb(129, 133, 137)',
       textColor: '#fff'
     })
   </script>
