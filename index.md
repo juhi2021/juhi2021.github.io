@@ -14,7 +14,7 @@
 	<div id="projects">
 		<div class="container-fluid p-1">
 			<div class="row">
-				<p class="text-secondary fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
+				<p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp;<i class="fa fa-angle-double-down"></i></p>
 			</div>
 			<div class="row mb-2">
 				<div class='card bg-light border-1 px-1 rounded h-100'>
@@ -105,19 +105,19 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
 			</div>
 			<div class="row">
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"> EDA <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+					<button type="button" class="btn py-0 btn-sm position-relative"><div style='background-color:#917aff;'> EDA </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"> ML <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+					<button type="button" class="btn py-0 btn-sm position-relative"> <div style='background-color:#917aff;'>ML </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               1
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
 				</div>
 				<div class="col">
-					<button type="button" class="btn py-0 btn-sm btn-secondary position-relative"> NLP <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+					<button type="button" class="btn py-0 btn-sm position-relative"> <div style='background-color:#917aff;'>NLP </div><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
               0
               <span class="visually-hidden">unread messages</span> </span>
 					</button>
