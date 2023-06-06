@@ -30,6 +30,7 @@ body {
 
 button.btn:hover {
   text-decoration: none;
+  background-color:#6e80db;
   box-shadow: 5px 6px 6px 2px blue;
   opacity: 1.3;
 }
