@@ -17,14 +17,14 @@
   
   </head>
   <body>
-    <header class="p-0 m-0">
+    <header>
       <div class="inner  py-0 mb-1">
         <a href="{{ '/' | absolute_url }}" class="text-decoration-none">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <div class="text-white text-decoration-none py-0 mb-1">
-		<small>{{ site.description | default: site.github.project_tagline }}</small>
-		{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}
+		 <a href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+			 <small>{{ site.description | default: site.github.project_tagline }}</small></a>
 	      </div>
 	  <div class="list-group list-group-horizontal bg-transparent mb-4" style="float: right;">
           <a class="link-info text-decoration-none fw-bold fs-6" href="#articles">
