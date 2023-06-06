@@ -1,6 +1,4 @@
-<head>
-  <link rel="stylesheet" href="/assets/css/style.scss" media="screen" type="text/css">
-</head>
+
 <body id="myPage">
   <div id="about">
     <div class='card text-secondary bg-white border-0 rounded p-0 h-100 m-2'>
