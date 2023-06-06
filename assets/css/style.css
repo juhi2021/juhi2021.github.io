@@ -1,5 +1,3 @@
-@import "{{ site.theme }}";
-
 body {
   color: #666666; 
   font-size: calc(25px - 1vw);
