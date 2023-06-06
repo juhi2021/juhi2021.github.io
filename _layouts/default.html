@@ -24,6 +24,7 @@
         </a>
         <div class="text-white text-decoration-none py-0 mb-1">
 		<small>{{ site.description | default: site.github.project_tagline }}</small>
+		{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}
 	      </div>
 	  <div class="list-group list-group-horizontal bg-transparent mb-4" style="float: right;">
           <a class="link-info text-decoration-none fw-bold fs-6" href="#articles">
@@ -37,7 +38,7 @@
         
       </div>
     </header>
-    <div id="content-wrapper">
+    <div id="content-wrapper p-0 m-0">
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
