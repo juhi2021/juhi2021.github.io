@@ -23,14 +23,14 @@ body {
   height: calc(120px + 1.5vw);
 }
 
-button {
+.button {
     background-color:#6e80db;
   }
 
-btn {
+.btn {
     background-color:#6e80db;
   }
-button.btn {
+.button.btn {
     background-color:#6e80db;
   }
 
