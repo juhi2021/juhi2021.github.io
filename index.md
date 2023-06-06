@@ -158,14 +158,5 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
       </div>
     </div>
   </div>
-  <!-- Footer -->
   
-  <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-  <script>
-    addBackToTop({
-      diameter: 50,
-      backgroundColor: 'rgb(129, 133, 137)',
-      textColor: '#fff'
-    })
-  </script>
 </body>
