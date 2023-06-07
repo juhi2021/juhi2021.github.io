@@ -19,7 +19,7 @@
   </head>
   <body>
 	  
-    <header>
+    
       <div class="container-fluid px-1 py-0 mb-1">
         <a href="{{ '/' | absolute_url }}" class="text-decoration-none">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -38,9 +38,9 @@
         </div>
         
       </div>
-    </header>
+    
 	  
-    <div class="container-fluid p-2 m-0" id="content-wrapper">
+    <div id="content-wrapper">
       <div class="clearfix">
         <section id="main-content">
           {{ content }}
