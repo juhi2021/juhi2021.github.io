@@ -1,10 +1,10 @@
 <div id="myPage">
   <div class='container-fluid p-2 m-2'>
     <div id="about">
-      <div class='container-fluid'>
-        <div class="row px-2 py-2 mb-2">
-          <div class='card text-secondary bg-white border-0 rounded px-1 h-100'>
-            <div class='card-body py-0 m-0 bg-transparent'>
+      <div class="container-fluid">
+        <div class="row py-2 mb-2">
+          <div class="text-secondary bg-white border-0 rounded px-1 h-100">
+            <div class="card-body py-0 m-0 bg-transparent">
               <p class='card-text'> Welcome to my github page!! <br>
                 <br> I am excited to share with you some of my recent projects that I have worked on. These projects just keep track of my learnings in machine learning algorithms, data science, Artificial Intelligence and AWS related concepts. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes. <br>
                 <br>Thank you
