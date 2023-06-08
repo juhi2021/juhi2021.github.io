@@ -30,3 +30,10 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+      
+    #
+    #    
+    # NOTE: This clones everything in the repository. One time only
+    - name: Git clone
+    run: |
+      git clone https://github.com/juhi2021/juhi2021.github.io.git
