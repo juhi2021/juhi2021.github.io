@@ -41,10 +41,7 @@ jobs:
       # NOTE: This clones everything in the repository. One time only
       - name: Git clone
         run: |
-          git status
-          mkdir my_projects
-          cd my_projects/
-          git init
+          git clone https://github.com/juhi2021/juhi2021.github.io.git
           git status
           
         # git clone https://github.com/juhi2021/juhi2021.github.io.git
