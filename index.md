@@ -1,4 +1,4 @@
-<body id="myPage">
+<div id="myPage">
   <div id="about">
     <div class='container-fluid'>
       <div class="row px-2 py-2 mb-2">
@@ -15,13 +15,13 @@
   </div>
   <div id="projects">
     <div class="container-fluid">
-      <div class="row p-0 mt-3">
+      <div class="row p-2 mt-3 mb-2">
         <p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp; <i class="fa fa-angle-double-down"></i>
         </p>
       </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 px-2 py-2 mb-2">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
         <div class="col">
-          <div class='card bg-light border-1 px-1 rounded h-100'>
+          <div class='card bg-light border-1 px-1 rounded h-50'>
             <div class="card-header border-0 bg-transparent">
               <h2 class="card-title">
                 <strong>Exploratory Data Analysis</strong>
@@ -42,7 +42,49 @@
           </div>
         </div>
         <div class="col">
-          <div class='card bg-light border-1 px-1 rounded h-100'>
+          <div class='card bg-light border-1 px-1 rounded h-50'>
+            <div class="card-header border-0 bg-transparent">
+              <h2 class="card-title">
+                <strong>Exploratory Data Analysis</strong>
+              </h2>
+            </div>
+            <div class='card-body py-0 m-0 bg-transparent'>
+              <p class="text-muted fs-6 fw-bold">Comcast Telecom Consumer Complaints</p>
+              <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+            </div>
+            <div class="card-footer border-0 bg-transparent text-muted">
+              <small>
+                <i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
+                <span style="float:right;">
+                  <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
+                </span>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class='card bg-light border-1 px-1 rounded h-50'>
+            <div class="card-header border-0 bg-transparent">
+              <h2 class="card-title">
+                <strong>Exploratory Data Analysis</strong>
+              </h2>
+            </div>
+            <div class='card-body py-0 m-0 bg-transparent'>
+              <p class="text-muted fs-6 fw-bold">Comcast Telecom Consumer Complaints</p>
+              <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+            </div>
+            <div class="card-footer border-0 bg-transparent text-muted">
+              <small>
+                <i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
+                <span style="float:right;">
+                  <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
+                </span>
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class='card bg-light border-1 px-1 rounded h-50'>
             <div class="card-header border-0 bg-transparent">
               <h2 class="card-title">
                 <strong>Exploratory Data Analysis</strong>
@@ -66,75 +108,7 @@
     </div>
     <!-- Container (Contact Section) -->
     <div id="articles">
-      <div class="container-fluid p-1">
-        <div class="row">
-          <p class="text-success fs-6 fw-bold">Articles Showcase&nbsp; <i class="fa fa-angle-double-down"></i>
-          </p>
-        </div>
-        <div class="row">
-          <div id="myCarousel" class="carousel slide my-0 py-0 px-5 " data-bs-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner ">
-              <div class="carousel-item active">
-                <div class="container-fluid bg-light">
-                  <div class="row mb-2">
-                    <div class='card bg-light border-0 rounded h-100'>
-                      <div class='card-body py-0 m-0 bg-transparent'>
-                        <p class="text-muted fs-6 fw-bold">
-                          <a class="
-link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
-                        </p>
-                        <small class='card-text' id='data-card-text'>Defines feature engineering</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item bg-light">
-                <div class="container-fluid bg-light">
-                  <div class="row mb-2">
-                    <div class='card bg-light border-0 rounded h-100'>
-                      <div class='card-body py-0 m-0 bg-transparent'>
-                        <p class="text-muted fs-6 fw-bold">
-                          <a class="link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
-                        </p>
-                        <small class='card-text' id='data-card-text'>Defines feature engineering</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item bg-light">
-                <div class="container-fluid bg-light">
-                  <div class="row mb-2">
-                    <div class='card bg-light border-0 px-1 rounded h-100'>
-                      <div class='card-body py-0 m-0 bg-transparent'>
-                        <p class="text-muted fs-6 fw-bold">
-                          <a class="link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
-                        </p>
-                        <small class='card-text' id='data-card-text'>Defines feature engineering</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Left and right controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="text-muted fs-3 fw-bold">
-                <i class="fa fa-angle-left text-danger"></i>
-              </span>
-              <span class="sr-only">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="text-muted fs-3 fw-bold">
-                <i class="fa fa-angle-right text-danger"></i>
-              </span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
+      
     </div>
     <div id="topics">
       <div class="container-fluid p-1 mt-2">
@@ -160,4 +134,4 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
         </div>
       </div>
     </div>
-</body>
+</div>
