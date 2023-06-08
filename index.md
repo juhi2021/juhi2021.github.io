@@ -1,7 +1,7 @@
 
 <body id="myPage">
   <div id="about">
-    <div class='container-fluid card text-secondary bg-white border-0 rounded p-0 h-100 m-2'>
+    <div class='container-fluid card text-secondary bg-white border-0 rounded p-2 h-100 m-2'>
       <div class='card-body p-2'>
         <p class='card-text'> Welcome to my github page!! <br>
           <br> I am excited to share with you some of my recent projects that I have worked on. These projects just keep track of my learnings in machine learning algorithms, data science, Artificial Intelligence and AWS related concepts. In this learning process, I have showcased my understanding of the AI concepts and implemented the fundamentals to resolve the real-world technical challenges including wide spectrum of application scenarios. Please share feedback and let me know about any mistakes. <br>
