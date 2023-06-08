@@ -21,7 +21,7 @@
       </div>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
         <div class="col">
-          <div class='card bg-light border-1 px-1 rounded h-50'>
+          <div class='card bg-light border-1 px-1 rounded h-100'>
             <div class="card-header border-0 bg-transparent">
               <h2 class="card-title">
                 <strong>Exploratory Data Analysis</strong>
@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="col">
-          <div class='card bg-light border-1 px-1 rounded h-50'>
+          <div class='card bg-light border-1 px-1 rounded h-100'>
             <div class="card-header border-0 bg-transparent">
               <h2 class="card-title">
                 <strong>Exploratory Data Analysis</strong>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="col">
-          <div class='card bg-light border-1 px-1 rounded h-50'>
+          <div class='card bg-light border-1 px-1 rounded h-100'>
             <div class="card-header border-0 bg-transparent">
               <h2 class="card-title">
                 <strong>Exploratory Data Analysis</strong>
@@ -84,7 +84,7 @@
           </div>
         </div>
         <div class="col">
-          <div class='card bg-light border-1 px-1 rounded h-50'>
+          <div class='card bg-light border-1 px-1 rounded h-100'>
             <div class="card-header border-0 bg-transparent">
               <h2 class="card-title">
                 <strong>Exploratory Data Analysis</strong>
