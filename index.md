@@ -111,7 +111,7 @@
       
     </div>
     <div id="topics">
-      <div class="container-fluid p-1 mt-2">
+      <div class="container-fluid p-1 mt-2 mb-2">
         <div class="row">
           <p class="text-success fs-6 fw-bold">Articles and Projects Topic wise distribution </p>
         </div>
