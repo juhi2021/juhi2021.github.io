@@ -42,7 +42,7 @@ jobs:
       - name: Git clone
         run: |
           git submodule add https://github.com/juhi2021/projects.git
-          git status
+          
           
         # git clone https://github.com/juhi2021/juhi2021.github.io.git
           
