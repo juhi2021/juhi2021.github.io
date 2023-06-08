@@ -22,19 +22,17 @@
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
           <div class="col">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <h2 class="card-title">
-                  <strong>Exploratory Data Analysis</strong>
-                </h2>
+                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
-              <div class='card-body py-0 m-0 bg-transparent'>
-                <p class="text-muted fs-6 fw-bold">Comcast Telecom Consumer Complaints</p>
-                <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
-                  <i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
                     <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
                   </span>
@@ -43,19 +41,17 @@
             </div>
           </div>
           <div class="col">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <h2 class="card-title">
-                  <strong>Exploratory Data Analysis</strong>
-                </h2>
+                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
-              <div class='card-body py-0 m-0 bg-transparent'>
-                <p class="text-muted fs-6 fw-bold">Comcast Telecom Consumer Complaints</p>
-                <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
-                  <i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
                     <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
                   </span>
@@ -64,19 +60,17 @@
             </div>
           </div>
           <div class="col">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <h2 class="card-title">
-                  <strong>Exploratory Data Analysis</strong>
-                </h2>
+                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
-              <div class='card-body py-0 m-0 bg-transparent'>
-                <p class="text-muted fs-6 fw-bold">Comcast Telecom Consumer Complaints</p>
-                <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
-                  <i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
                     <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
                   </span>
@@ -85,19 +79,17 @@
             </div>
           </div>
           <div class="col">
-            <div class='card bg-light border-1 px-1 rounded h-100'>
+            <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <h2 class="card-title">
-                  <strong>Exploratory Data Analysis</strong>
-                </h2>
+                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
-              <div class='card-body py-0 m-0 bg-transparent'>
-                <p class="text-muted fs-6 fw-bold">Comcast Telecom Consumer Complaints</p>
-                <small class='card-text' id='data-card-text'>A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
-                  <i class='fa fa-calendar'>&nbsp;January 19, 2022</i>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
                     <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
                   </span>
