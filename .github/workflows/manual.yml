@@ -41,7 +41,10 @@ jobs:
       # NOTE: This clones everything in the repository. One time only
       - name: Git clone
         run: |
-          git clone https://github.com/juhi2021/juhi2021.github.io.git
+          git submodule add https://github.com/juhi2021/projects
           git status
+          
+        # git clone https://github.com/juhi2021/juhi2021.github.io.git
+          
           
         # git clone https://github.com/juhi2021/juhi2021.github.io.git
