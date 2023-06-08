@@ -108,7 +108,75 @@
     </div>
     <!-- Container (Contact Section) -->
     <div id="articles">
-      
+      <div class="container-fluid p-1">
+        <div class="row">
+          <p class="text-success fs-6 fw-bold">Articles Showcase&nbsp; <i class="fa fa-angle-double-down"></i>
+          </p>
+        </div>
+        <div class="row">
+          <div id="myCarousel" class="carousel slide my-0 py-0 px-5 " data-bs-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <div class="container-fluid bg-light">
+                  <div class="row mb-2">
+                    <div class="card bg-light border-0 rounded h-100">
+                      <div class="card-body py-0 m-0 bg-transparent">
+                        <p class="text-muted fs-6 fw-bold">
+                          <a class="
+link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                        </p>
+                        <small class="card-text" id="data-card-text">Defines feature engineering</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item bg-light">
+                <div class="container-fluid bg-light">
+                  <div class="row mb-2">
+                    <div class="card bg-light border-0 rounded h-100">
+                      <div class="card-body py-0 m-0 bg-transparent">
+                        <p class="text-muted fs-6 fw-bold">
+                          <a class="link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                        </p>
+                        <small class="card-text" id="data-card-text">Defines feature engineering</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item bg-light">
+                <div class="container-fluid bg-light">
+                  <div class="row mb-2">
+                    <div class="card bg-light border-0 px-1 rounded h-100">
+                      <div class="card-body py-0 m-0 bg-transparent">
+                        <p class="text-muted fs-6 fw-bold">
+                          <a class="link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                        </p>
+                        <small class="card-text" id="data-card-text">Defines feature engineering</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="text-muted fs-3 fw-bold">
+                <i class="fa fa-angle-left text-danger"></i>
+              </span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="text-muted fs-3 fw-bold">
+                <i class="fa fa-angle-right text-danger"></i>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="topics">
       <div class="container-fluid p-1 mt-2 mb-2">
@@ -134,4 +202,4 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
