@@ -109,8 +109,8 @@
       </div>
       <!-- Container (Contact Section) -->
       <div id="articles">
-        <div class="container-fluid p-1">
-          <div class="row">
+        <div class="container-fluid">
+          <div class="row p-2 mt-3 mb-2">
             <p class="text-success fs-6 fw-bold">Articles Showcase&nbsp; <i class="fa fa-angle-double-down"></i>
             </p>
           </div>
@@ -180,8 +180,8 @@ link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html"
         </div>
       </div>
       <div id="topics">
-        <div class="container-fluid p-1 mt-2 mb-2">
-          <div class="row">
+        <div class="container-fluid">
+          <div class="row p-2 mt-3 mb-4">
             <p class="text-success fs-6 fw-bold">Articles and Projects Topic wise distribution </p>
           </div>
           <div class="row">
