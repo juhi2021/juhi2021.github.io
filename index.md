@@ -131,7 +131,7 @@ link-secondary text-decoration-none fw-bold" href="/projects/nlp/Feature_Selecti
                       <div class="card bg-light border-0 rounded h-100">
                         <div class="card-body py-0 m-0 bg-transparent">
                           <p class="text-muted fs-6 fw-bold">
-                            <a class="link-secondary text-decoration-none fw-bold" href="/docs/Feature_Selection.html">Feature Engineering</a>
+                            <a class="link-secondary text-decoration-none fw-bold" href="/projects/nlp/Feature_Selection.html">Feature Engineering</a>
                           </p>
                           <small class="card-text" id="data-card-text">Defines feature engineering</small>
                         </div>
