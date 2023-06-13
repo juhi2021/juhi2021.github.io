@@ -31,15 +31,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-      
       # If using Python:
       - name: Pull data
         run: |
           git init projects
           cd projects
+          git remote add upstream git@github.com:juhi2021/juhi2021.github.io.git
+          git remote add origin git@github.com:juhi2021/projects.git
+          git remote --verbose
