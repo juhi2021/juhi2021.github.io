@@ -39,3 +39,30 @@ jobs:
           git remote add upstream git@github.com:juhi2021/juhi2021.github.io.git
           git remote add origin git@github.com:juhi2021/projects.git
           git remote --verbose
+          git checkout -b develop
+          git push --set-upstream origin develop
+          git branch --all
+          
+      - name: Checkout
+        uses: actions/checkout@develop      
+      - name: Setup Pages
+        uses: actions/configure-pages@develop
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@develop
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@develop
+        
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: pages_data
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@develop
