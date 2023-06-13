@@ -43,8 +43,6 @@ jobs:
           git push --set-upstream origin develop
           git branch --all
           
-      - name: Checkout
-        uses: actions/checkout@develop      
       - name: Setup Pages
         uses: actions/configure-pages@develop
       - name: Build with Jekyll
