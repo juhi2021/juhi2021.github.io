@@ -34,10 +34,8 @@ jobs:
       # If using Python:
       - name: Pull data
         run: |
-          git init projects
-          cd projects
-          git remote add upstream git@github.com:juhi2021/juhi2021.github.io.git
-          git remote add origin git@github.com:juhi2021/projects.git
+          git remote add origin git@github.com:juhi2021/juhi2021.github.io.git
+          git remote add upstream git@github.com:juhi2021/projects.git
           git remote --verbose
           git config --local user.email "work4juhi@gmail.com"
           git config --local user.name "GitHub Action"
