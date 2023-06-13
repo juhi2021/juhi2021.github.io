@@ -40,8 +40,6 @@ jobs:
           git remote add origin git@github.com:juhi2021/projects.git
           git remote --verbose
           git commit --allow-empty --message "Initial commit"
-          git push --set-upstream origin master
-          git checkout -b develop
-          git push --set-upstream origin develop
-          git branch --all
+          git push --set-upstream origin main
+          
           
