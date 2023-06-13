@@ -40,3 +40,6 @@ jobs:
           git remote add origin git@github.com:juhi2021/projects.git
           git remote --verbose
           git checkout -b develop
+          git push --set-upstream origin develop
+          git branch --all
+          
