@@ -26,13 +26,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch
-        uses: actions/fetch@main
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           persist-credentials: true
           submodules: true
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
