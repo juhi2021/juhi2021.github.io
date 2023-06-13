@@ -39,7 +39,7 @@ jobs:
           git remote add upstream git@github.com:juhi2021/juhi2021.github.io.git
           git remote add origin git@github.com:juhi2021/projects.git
           git remote --verbose
+          git config --local user.email "mailcyberbytes@gmail.com"
+          git config --local user.name "GitHub Action"
           git commit --allow-empty --message "Initial commit"
-          git push --set-upstream "https://${GITHUB_ACTOR}:${TOKEN}@github.com/projects.git" HEAD:main
-          
-          
+          git push --set-upstream origin main
