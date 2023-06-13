@@ -1,3 +1,5 @@
+@import "{{ site.theme }}";
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: calc(25px - 1vw);
