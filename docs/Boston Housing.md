@@ -1122,73 +1122,73 @@ plot_uni_num_list(df, num_feat_list)
 
 
     
-![png](output_60_0.png)
+![png](/assets/images/boston/output_60_0.png)
     
 
 
 
     
-![png](output_60_1.png)
+![png](/assets/images/boston/output_60_1.png)
     
 
 
 
     
-![png](output_60_2.png)
+![png](/assets/images/boston/output_60_2.png)
     
 
 
 
     
-![png](output_60_3.png)
+![png](/assets/images/boston/output_60_3.png)
     
 
 
 
     
-![png](output_60_4.png)
+![png](/assets/images/boston/output_60_4.png)
     
 
 
 
     
-![png](output_60_5.png)
+![png](/assets/images/boston/output_60_5.png)
     
 
 
 
     
-![png](output_60_6.png)
+![png](/assets/images/boston/output_60_6.png)
     
 
 
 
     
-![png](output_60_7.png)
+![png](/assets/images/boston/output_60_7.png)
     
 
 
 
     
-![png](output_60_8.png)
+![png](/assets/images/boston/output_60_8.png)
     
 
 
 
     
-![png](output_60_9.png)
+![png](/assets/images/boston/output_60_9.png)
     
 
 
 
     
-![png](output_60_10.png)
+![png](/assets/images/boston/output_60_10.png)
     
 
 
 
     
-![png](output_60_11.png)
+![png](/assets/images/boston/output_60_11.png)
     
 
 
@@ -1237,7 +1237,7 @@ plot_uni_cat(df, cat_feat_list)
 
 
     
-![png](output_64_0.png)
+![png](/assets/images/boston/output_64_0.png)
     
 
 
@@ -1285,7 +1285,7 @@ plot_bi_box_num_target(df, cat_feat_list, 2, target_var)
 
 
     
-![png](output_70_0.png)
+![png](/assets/images/boston/output_70_0.png)
     
 
 
@@ -1328,7 +1328,7 @@ plot_bi_reg_num_target(df, num_feat_list, 3, target_var)
 
 
     
-![png](output_74_0.png)
+![png](/assets/images/boston/output_74_0.png)
     
 
 
@@ -1407,7 +1407,7 @@ sns.heatmap(corr, annot=True, cmap ='coolwarm', linewidths=2, mask=matrix)
 
 
     
-![png](output_81_1.png)
+![png](/assets/images/boston/output_81_1.png)
     
 
 
@@ -1625,7 +1625,7 @@ print()
 
 
     
-![png](output_102_1.png)
+![png](/assets/images/boston/output_102_1.png)
     
 
 
