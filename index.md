@@ -20,7 +20,7 @@
           <p class="text-success fs-6 fw-bold">Here's all the learnings till now&nbsp; <i class="fa fa-angle-double-down"></i>
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
           <div class="col">
             <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
@@ -179,14 +179,14 @@
                 <img src="/assets/images/fashion-mnist.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
-                <p class="card-title fw-bold">Loan Prediction</p>
+                <p class="card-title fw-bold">fashion_mnist image using keras classification</p>
                 <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
+                    <a class="card-link" href="/docs/fashion_mnist image using keras classification.html"> Read more... </a>
                   </span>
                 </small>
               </div>
