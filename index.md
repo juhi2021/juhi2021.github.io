@@ -24,7 +24,7 @@
           <div class="col">
             <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+                <img src="/assets/images/boston.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
                 <p class="card-title fw-bold">Boston Housing Prices Prediction</p>
@@ -43,7 +43,7 @@
           <div class="col">
             <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+                <img src="/assets/images/wine.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
                 <p class="card-title fw-bold">Wine Quality Prediction</p>
