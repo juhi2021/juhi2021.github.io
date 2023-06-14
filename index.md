@@ -62,17 +62,17 @@
           <div class="col">
             <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+                <img src="/assets/images/iris.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
-                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <p class="card-title fw-bold">Iris Flower Classification</p>
                 <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
+                    <a class="card-link" href="/docs/Iris Flower Classification.html"> Read more... </a>
                   </span>
                 </small>
               </div>
@@ -81,17 +81,188 @@
           <div class="col">
             <div class="card bg-light border-1 px-1 rounded h-100">
               <div class="card-header border-0 bg-transparent">
-                <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+                <img src="/assets/images/loan.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
-                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <p class="card-title fw-bold">Loan Prediction</p>
                 <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="/docs/Comcast Telecom Consumer Complaints.ipynb - Colaboratory.html"> Read more... </a>
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/fake-tweet.png" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Twitter Fake_Disaster Tweet Classification</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Twitter Fake_Disaster Tweet Classification.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/heart.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Heart Failure Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Heart Failure Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/tata-stock.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Tata Stock Price Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Tata Stock Price Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/stock-senti.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Stock Sentiment Analysis using News Headlines</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Stock Sentiment Analysis using News Headlines.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/fashion-mnist.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Loan Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/loan.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Loan Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/loan.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Loan Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/loan.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Loan Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
+                  </span>
+                </small>
+              </div>
+            </div>
+          </div>
+	  <div class="col">
+            <div class="card bg-light border-1 px-1 rounded h-100">
+              <div class="card-header border-0 bg-transparent">
+                <img src="/assets/images/loan.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
+              </div>
+              <div class="card-body py-0 m-0 bg-transparent">
+                <p class="card-title fw-bold">Loan Prediction</p>
+                <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
+              </div>
+              <div class="card-footer border-0 bg-transparent text-muted">
+                <small>
+                  <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
+                  <span style="float:right;">
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
                   </span>
                 </small>
               </div>
