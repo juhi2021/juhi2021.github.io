@@ -27,14 +27,14 @@
                 <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
-                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <p class="card-title fw-bold">Boston Housing Prices Prediction</p>
                 <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="/docs/Boston Housing Prices Prediction.html"> Read more... </a>
+                    <a class="card-link" href="/docs/Boston Housing.html"> Read more... </a>
                   </span>
                 </small>
               </div>
@@ -46,14 +46,14 @@
                 <img src="/assets/images/header.jpg" id='data-card-image' loading="lazy" class='card-img-top img-fluid' alt='...'>
               </div>
               <div class="card-body py-0 m-0 bg-transparent">
-                <p class="card-title fw-bold">Comcast Telecom Consumer Complaints</p>
+                <p class="card-title fw-bold">Wine Quality Prediction</p>
                 <small class="card-text" id="data-card-text">A detailed exploratory analysis of the telecommunication company's data and provide insights based on analysis</small>
               </div>
               <div class="card-footer border-0 bg-transparent text-muted">
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="/docs/Boston Housing.html"> Read more... </a>
+                    <a class="card-link" href="/docs/Wine Quality.html"> Read more... </a>
                   </span>
                 </small>
               </div>
