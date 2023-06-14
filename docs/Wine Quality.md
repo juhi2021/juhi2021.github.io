@@ -972,7 +972,7 @@ plot_uni_num(train_df, 1, num_feat_list[0])
 
 
     
-![png](output_55_0.png)
+![png](/assets/images/wine/output_55_0.png)
     
 
 
@@ -1006,67 +1006,67 @@ plot_uni_num_list(train_df, num_feat_list)
 
 
     
-![png](output_58_0.png)
+![png](/assets/images/wine/output_58_0.png)
     
 
 
 
     
-![png](output_58_1.png)
+![png](/assets/images/wine/output_58_1.png)
     
 
 
 
     
-![png](output_58_2.png)
+![png](/assets/images/wine/output_58_2.png)
     
 
 
 
     
-![png](output_58_3.png)
+![png](/assets/images/wine/output_58_3.png)
     
 
 
 
     
-![png](output_58_4.png)
+![png](/assets/images/wine/output_58_4.png)
     
 
 
 
     
-![png](output_58_5.png)
+![png](/assets/images/wine/output_58_5.png)
     
 
 
 
     
-![png](output_58_6.png)
+![png](/assets/images/wine/output_58_6.png)
     
 
 
 
     
-![png](output_58_7.png)
+![png](/assets/images/wine/output_58_7.png)
     
 
 
 
     
-![png](output_58_8.png)
+![png](/assets/images/wine/output_58_8.png)
     
 
 
 
     
-![png](output_58_9.png)
+![png](/assets/images/wine/output_58_9.png)
     
 
 
 
     
-![png](output_58_10.png)
+![png](/assets/images/wine/output_58_10.png)
     
 
 
@@ -1094,7 +1094,7 @@ for p in ax.patches:
 
 
     
-![png](output_61_0.png)
+![png](/assets/images/wine/output_61_0.png)
     
 
 
@@ -1138,7 +1138,7 @@ plot_bi_box_num_target(train_df, ['fixed acidity'], 1, target_var)
 
 
     
-![png](output_67_0.png)
+![png](/assets/images/wine/output_67_0.png)
     
 
 
@@ -1159,7 +1159,7 @@ plot_bi_box_num_target(train_df, num_feat_list, 3, target_var)
 
 
     
-![png](output_70_0.png)
+![png](/assets/images/wine/output_70_0.png)
     
 
 
@@ -1259,7 +1259,7 @@ sns.heatmap(corr, annot=True, cmap ='coolwarm', linewidths=2, mask=matrix)
 
 
     
-![png](output_80_1.png)
+![png](/assets/images/wine/output_80_1.png)
     
 
 
@@ -1586,7 +1586,7 @@ print()
 
 
     
-![png](output_103_1.png)
+![png](/assets/images/wine/output_103_1.png)
     
 
 
