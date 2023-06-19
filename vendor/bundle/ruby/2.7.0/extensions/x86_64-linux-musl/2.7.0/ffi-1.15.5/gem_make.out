@@ -1,5 +1,5 @@
 current directory: /github/workspace/code/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
-/usr/local/bin/ruby -I /usr/local/lib/ruby/2.7.0 -r ./siteconf20230619-10-1wj47ps.rb extconf.rb
+/usr/local/bin/ruby -I /usr/local/lib/ruby/2.7.0 -r ./siteconf20230619-9-1ehg07s.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -40,4 +40,4 @@ linking shared-object ffi_c.so
 
 current directory: /github/workspace/code/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20230619-10-vebqhm
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20230619-9-6yba95
