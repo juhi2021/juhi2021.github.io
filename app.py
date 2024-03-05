@@ -14,4 +14,4 @@ def hello():
 if __name__ == '__main__':
     # Run the app on the local development server
     #app.run()
-    hello()
+    print(hello())
