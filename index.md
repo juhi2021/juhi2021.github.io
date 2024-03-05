@@ -91,7 +91,7 @@
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="/docs/Loan Prediction.md"> Read more... </a>
+                    <a class="card-link" href="/docs/Loan Prediction.html"> Read more... </a>
                   </span>
                 </small>
               </div>
