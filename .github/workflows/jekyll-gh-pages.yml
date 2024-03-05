@@ -36,7 +36,7 @@ jobs:
         with: 
           token: ${{ secrets.MY_TOKEN }}
           repository: juhi2021/priv-repo
-      #    path: code/my-priv-repo
+          path: my-priv-repo
         env:
           TOKEN: ${{ secrets.MY_TOKEN }}
       - name: Setup Pages
