@@ -36,7 +36,6 @@ jobs:
       - name: Checkout site
         uses: actions/checkout@v2
         with: 
-          token: ${{ secrets.MY_TOKEN }}
           repository: juhi2021/juhi2021.github.io
           ref: main 
           path: site
