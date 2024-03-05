@@ -26,8 +26,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
+        with: 
+          path: code
+      - name: Checkout priv repo code
+        uses: actions/checkout@v4
+        with: 
+          token: ${{ secrets.MY_TOKEN }}
+          repository: juhi2021/priv-repo
+          ref: main 
+          path: code 
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
