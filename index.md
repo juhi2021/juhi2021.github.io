@@ -91,7 +91,7 @@
                 <small>
                   <i class="fa fa-calendar">&nbsp;January 19, 2022</i>
                   <span style="float:right;">
-                    <a class="card-link" href="../../priv-repo/Loan Prediction.md"> Read more... </a>
+                    <a class="card-link" href="https://github.com/juhi2021/priv-repo/Loan Prediction.md"> Read more... </a>
                   </span>
                 </small>
               </div>
