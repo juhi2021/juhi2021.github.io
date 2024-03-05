@@ -29,8 +29,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with: 
-          path: code 
+      #  with: 
+      #    path: code 
       #- name: Checkout priv repo code
       #  uses: actions/checkout@v4
       #  with: 
@@ -48,8 +48,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
+      #  with:
+      #    path: ./_site
   # Deployment job
   deploy:
     environment:
