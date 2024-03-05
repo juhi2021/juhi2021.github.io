@@ -33,6 +33,12 @@ jobs:
         uses: actions/checkout@v2
         with: 
           path: code
+      - name: Checkout private code
+        uses: actions/checkout@v2
+        with: 
+          repository: juhi2021/juhi2021.github.io
+          ref: main 
+          path: code
       - name: Checkout site
         uses: actions/checkout@v2
         with: 
@@ -54,10 +60,4 @@ jobs:
         run: |
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config --global user.name "github-actions"
-          pushd site 
-          # add and commit /docs/ folder
-          git add .
-          git commit -m "deploy the bundle"
-          # push the commit to the public repository
-          git push origin HEAD:main --force
-          popd
+          pushd site           
