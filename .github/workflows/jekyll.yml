@@ -35,13 +35,7 @@ jobs:
         uses: actions/checkout@v4
         with: 
           path: code
-      - name: Checkout private code
-        uses: actions/checkout@v4
-        with: 
-          repository: juhi2021/priv-repo
-          submodules: recursive
-          ref: main 
-          path: code    
+         
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
 
