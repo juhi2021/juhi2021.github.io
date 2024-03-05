@@ -13,4 +13,5 @@ def hello():
 # Check if the script is run directly and not imported
 if __name__ == '__main__':
     # Run the app on the local development server
-    app.run()
+    #app.run()
+    hello()
