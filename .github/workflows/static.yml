@@ -1,9 +1,11 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
   push:
+    branches: ["main"]
+  pull_request:
     branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -24,20 +26,35 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with: 
+          path: code
+      - name: Checkout site
+        uses: actions/checkout@v2
+        with: 
+          ref: main 
+          path: site
+      - name: Clean website
+        run: |
+          pushd site
+          git rm -rf .
+          popd
+      - name: Copy site
+        run: |
+          pushd site
+          cp -rvf ../code/* . 
+          popd
+          ls -la site/ 
+      - name: Publish
+        run: |
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          pushd site 
+          
+          # push the commit to the public repository
+          git push origin HEAD:main --force
+          popd
