@@ -36,6 +36,8 @@ jobs:
         with: 
           token: ${{ secrets.MY_TOKEN }}
           repository: juhi2021/priv-repo
+        env:
+          TOKEN: ${{ secrets.MY_TOKEN }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
