@@ -51,7 +51,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install --upgrade --force-reinstall -r requirements.txt; fi
       - name: Run the application
         run: |
-          python app.py
+          python my-priv-repo/app.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
