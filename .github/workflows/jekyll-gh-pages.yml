@@ -27,8 +27,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      #- name: Checkout code
-      #  uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
       #  with: 
       #    path: code 
       - name: Checkout priv repo code
@@ -57,7 +57,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./my-priv-repo
+          source: ./
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
