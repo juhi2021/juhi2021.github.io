@@ -48,7 +48,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install --upgrade --force-reinstall -r requirements.txt; fi
+          if [ -f my-priv-repo/requirements.txt ]; then pip install --upgrade --force-reinstall -r my-priv-repo/requirements.txt; fi
       - name: Run the application
         run: |
           python my-priv-repo/app.py
