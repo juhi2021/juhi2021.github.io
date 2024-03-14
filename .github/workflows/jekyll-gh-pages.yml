@@ -50,8 +50,11 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f my-priv-repo/requirements.txt ]; then pip install --upgrade --force-reinstall -r my-priv-repo/requirements.txt; fi
       - name: Run the application
+        #run: |
+        #  python my-priv-repo/app.py
         run: |
-          python my-priv-repo/app.py
+          flask --app login_project run
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
