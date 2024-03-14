@@ -53,7 +53,7 @@ jobs:
         #run: |
         #  python my-priv-repo/app.py
         run: |
-          flask --app login_project run
+          flask --app my-priv-repo/login_project run
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
