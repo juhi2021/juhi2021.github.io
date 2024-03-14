@@ -50,10 +50,8 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f my-priv-repo/requirements.txt ]; then pip install --upgrade --force-reinstall -r my-priv-repo/requirements.txt; fi
       - name: Run the application
-        #run: |
-        #  python my-priv-repo/app.py
         run: |
-          python my-priv-repo/login_project/main.py
+          python my-priv-repo/app.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
