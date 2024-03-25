@@ -51,7 +51,6 @@ jobs:
           if [ -f my-priv-repo/requirements.txt ]; then pip install --upgrade --force-reinstall -r my-priv-repo/requirements.txt; fi
       - name: Run the application
         run: |
-          python my-priv-repo/launch.py |
           python my-priv-repo/app.py
 
       - name: Setup Pages
